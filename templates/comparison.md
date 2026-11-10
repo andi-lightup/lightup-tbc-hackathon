@@ -1,25 +1,25 @@
 # Comparison team submission
 
-Track · Test date · Matrix version · Reader and decision
+Track · Test date · Matrix version · Category and criteria you worked on
 
 ## Proposed change
 
-| Current criterion, weight or presentation | Proposed change | Why it helps the reader |
+| Current criterion, points or presentation | Proposed change | Why it helps the reader |
 |---|---|---|
 | | | |
 
 ## Repeatable test
 
-List the inputs, settings, units, sources and numbered procedure. Define the scoring rule before comparing products. Explain how to record “feature absent”, “not applicable” and “not verified”. If proposing a weight change, show its effect with the other weights accounted for.
+List the inputs, settings, units, sources and numbered procedure. Define the scoring rule before comparing products. Explain how to record “feature absent”, “not applicable” and “not verified”. If you change points, show how the other criteria in the category are adjusted.
 
-| Product and version | Evidence and date | Observation | Score and calculation | Limitation |
+| Product and version | Evidence and date | Observation | Points and calculation | Limitation |
 |---|---|---|---|---|
 | | | | | |
 | | | | | |
 
 ## What readers see
 
-Insert the table, graphic or mock-up. Can a reader trace a displayed score back to the observation?
+Insert the table, graphic, explanation text or mock-up. Can a reader trace a displayed rating back to the observation?
 
 ## Maintenance and peer check
 

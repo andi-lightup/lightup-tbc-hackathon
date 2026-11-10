@@ -1,24 +1,20 @@
-# Beginner book concept
+# Guide team submission
 
 ## Intended reader
 
-What experience are we assuming? What will this reader be able to do by the final chapter?
+What experience are we assuming? What should this reader be able to explain or do afterwards?
 
-## What we found in the drafts
+## What we found in the learning paths
 
-Record recurring starting points, a disagreement about sequence and a distinctive example worth preserving. Refer to individual drafts using anonymous IDs in the agreed collection channel.
+Record recurring starting points, a disagreement about sequence and a distinctive example worth keeping. Refer to individual drafts using anonymous IDs in the agreed collection channel.
 
-## Two possible openings
+## New angles
 
-Write the first paragraph of each opening. What reader question does each address? What would help us choose between them?
+| Reader's question | Explanation or comparison | Exercise | Check for understanding |
+|---|---|---|---|
+| | | | |
 
-## Annotated contents
-
-| Chapter | Reader’s question | Prerequisites | Learning objective | Example or exercise | Check for understanding |
-|---|---|---|---|---|---|
-| | | | | | |
-
-Add a row for each chapter.
+Add a row for each angle. Mark the ones you think LIGHT UP has not used yet.
 
 ## Sample two-page spread
 
@@ -26,6 +22,6 @@ Add a row for each chapter.
 
 **Page two.** Give the reader an exercise, step-by-step instructions and a way to check the result.
 
-## Reader feedback and handoff
+## Peer test and handoff
 
-What did the peer understand, where did they hesitate and what did you revise? List questions to test with beginners. Identify any LIGHT UP videos that could support the outline and record which materials are cleared for public sharing.
+What did the peer understand, where did they hesitate and what did you revise? List questions to test with real beginners. Note which team members would like to be named in the book if their contribution is used, and which materials are cleared for public sharing.

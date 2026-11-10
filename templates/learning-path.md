@@ -16,4 +16,4 @@ Add up to two steps if useful. Why did you put the first two in this order?
 
 Write the words you would actually use. Include an example, a concrete instruction or exercise, and one question that checks understanding. Where might this person get stuck?
 
-Send this draft through the collection channel announced by the organizers.
+Share this draft with your team before you compare paths, and put it in the collection channel agreed with the organizers.

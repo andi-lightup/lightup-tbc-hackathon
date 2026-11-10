@@ -1,25 +1,46 @@
 # Crypto Taxtool Comparison
 
-Which small test would show how much manual work a tax tool leaves to its user?
+**Guiding question:** How can we show every reader which tax tool costs least for their own number of transactions?
 
 ## Starting point
 
-LIGHT UP compares 13 tools across seven categories. A stated integration tells a reader that a source is supported. A test import can also show what the reader must fix afterwards. [Published methodology and matrices](https://lightupkryptos.de/so-testen-wir/)
+LIGHT UP compares 13 tools in seven categories. Costs carry 14 of 100 points:
 
-## Inputs to prepare
+| Criterion | Scoring | Max. points |
+|---|---|---|
+| Free version | Yes: 2 · no: 0 | 2 |
+| Lifetime licence | Yes: 2 · no: 0 | 2 |
+| Price for 100 transactions | Cheapest tool: 2.5 · most expensive: 0 · others: pro rata · not possible: 0 | 2.5 |
+| Price for 1,000 transactions | as above | 2.5 |
+| Price for 10,000 transactions | as above | 2.5 |
+| Price for unlimited transactions | as above | 2.5 |
 
-Prepare one synthetic transaction history with timestamps, assets, amounts, fees and a transfer between two wallets owned by the same fictional person. Include the expected records and document any format conversion for each tool.
+The tools price very differently: annual plans, transaction limits, per tax year, add-ons for DeFi or NFTs. A reader with 300 or 3,000 transactions a year cannot tell from four fixed price points which tool is cheapest for them. [Full methodology and matrix (German)](https://lightupkryptos.de/so-testen-wir/)
 
-## One possible pilot
+## Your task
 
-Import equivalent records into two or three tools. Log automatic matches, clarification prompts, incorrect matches and manual corrections separately. Define what counts as one correction before starting. Record the software version, plan and import settings. Keep the assessment focused on import behaviour.
+Build the basis for a calculator on the LIGHT UP website: a reader enters their yearly number of transactions and sees what each tool would cost them, next to its LIGHT UP rating.
 
-**Keeping it current.** Can an editor replay the fixture after a relevant importer update? Record setup time separately from repeat-test time.
+1. **Data model.** Define how a price plan is stored so that every tool fits: plan name, price, billing period, transaction limit, what happens above the limit, included features, source and date.
+2. **Price data.** Collect the current public price plans for at least five tools into that model.
+3. **Calculation.** Write a function that returns the cheapest suitable plan per tool for a given number of transactions. Decide how to handle edge cases: limits per tax year, features only in higher plans, prices in other currencies.
+4. **Display.** Sketch or prototype how the result appears on the website. The site runs on Next.js, so a small React component is directly reusable, but a clickable mock-up is fine too.
+5. **Scoring.** Propose whether the cost criteria should change once a calculator exists, for example by scoring the price ranges LIGHT UP viewers actually use.
 
-**A question a newsroom could investigate.** How many manual corrections does the same transaction history require across the tested tools?
+The display must stay neutral: it shows costs and ratings, it does not recommend a tool.
+
+## What LIGHT UP gets out of it
+
+A dataset, a calculation and a display concept that LIGHT UP can build into the website, so readers get a cost comparison for their own situation instead of four fixed price points.
 
 ## What to submit
 
-Complete the [comparison submission](../templates/comparison.md). Show one before-and-after matrix entry, results for two or three products, the reader-facing view and the outcome of a peer’s attempt to reproduce one row. Include a maintenance plan and a source a journalist could cite. If you choose a different improvement, use the same deliverables.
+Complete the [comparison submission](../templates/comparison.md):
+
+1. The data model and the price data as CSV or JSON, with source and date per plan.
+2. The calculation as code or a spreadsheet, with three worked examples (for example 50, 800 and 5,000 transactions).
+3. The mock-up or prototype.
+4. A proposal for the cost criteria, with its effect on two or three tools.
+5. The outcome of a peer's attempt to reproduce one result using only your data and instructions.
 
 [Schedule and voting](../README.md#schedule)

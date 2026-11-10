@@ -1,10 +1,10 @@
 # Crypto Guide for Beginners
 
-**Guiding question:** How do you explain Bitcoin and crypto to someone who knows nothing about them?
+**Guiding question:** How do you explain crypto to someone who knows nothing about it?
 
 ## Starting point
 
-LIGHT UP has published more than 700 YouTube videos since 2021, each written out word for word. Andi and Peed are now writing a book for beginners. After so many videos, they are looking for angles they have not tried yet: a different first question, an everyday comparison, an exercise that makes an idea click.
+LIGHT UP has published more than 700 YouTube videos since 2021, each written out word for word. Andi and Peed are now writing a book for beginners about crypto: the technology and what it is used for. Bitcoin, with its philosophical and mathematical side, gets a book of its own and is not the focus of this track. After so many videos, they are looking for angles they have not tried yet: a different first question, an everyday comparison, an exercise that makes an idea click.
 
 ## Your task
 

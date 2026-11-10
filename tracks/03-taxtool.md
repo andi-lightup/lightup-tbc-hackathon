@@ -1,6 +1,6 @@
 # Crypto Taxtool Comparison
 
-**Guiding question:** How can we show every reader which tax tool costs least for their own number of transactions?
+**Guiding question:** How can we improve the cost rating so that readers can find out which tool is cheapest for their number of transactions?
 
 ## Starting point
 

@@ -2,7 +2,7 @@
 
 How would you choose a crypto exchange if you could see exactly how every rating was earned? And how would you explain crypto to a friend who had never heard of a blockchain?
 
-This proposed three-hour workshop brings 30–40 students together in five teams. Four teams improve one part of a LIGHT UP comparison, the fifth looks for new ways to explain Bitcoin and crypto to beginners. Every track starts from LIGHT UP's published rating matrix or material and ends with something LIGHT UP can use after the event. Andi and Peed from LIGHT UP support the teams.
+This proposed three-hour workshop brings 30–40 students together in five teams. Four teams improve one part of a LIGHT UP comparison, the fifth looks for new ways to explain crypto to beginners. Every track starts from LIGHT UP's published rating matrix or material and ends with something LIGHT UP can use after the event. Andi and Peed from LIGHT UP support the teams.
 
 ## Choose your track
 
@@ -10,9 +10,9 @@ This proposed three-hour workshop brings 30–40 students together in five teams
 |---|---|---|
 | [Crypto Exchange Comparison](tracks/01-exchange.md) | How can the security rating say more about how safe a customer's money is? | Revised security criteria with scoring rules, tested on two or three exchanges |
 | [Crypto Wallet Comparison](tracks/02-wallet.md) | How can we improve the security rating and explain its criteria to beginners? | Revised security criteria plus explanation texts for features such as passphrase and multi-signature |
-| [Crypto Taxtool Comparison](tracks/03-taxtool.md) | How can every reader see which tool costs least for their number of transactions? | A price data model, a calculation and a display concept for a cost calculator on the website |
+| [Crypto Taxtool Comparison](tracks/03-taxtool.md) | How can we improve the cost rating so that readers can find out which tool is cheapest for their number of transactions? | A price data model, a calculation and a display concept for a cost calculator on the website |
 | [Crypto Trading Comparison](tracks/04-trading.md) | How can trading costs and liquidity be measured reproducibly and kept current? | A documented slippage method and a script that collects slippage and funding data |
-| [Crypto Guide for Beginners](tracks/05-guide.md) | How do you explain Bitcoin and crypto to someone who knows nothing about them? | New angles, explanations and exercises for LIGHT UP's book |
+| [Crypto Guide for Beginners](tracks/05-guide.md) | How do you explain crypto to someone who knows nothing about it? | New angles, explanations and exercises for LIGHT UP's book |
 
 Each brief shows the criteria it starts from, taken from the published methodology. Andi and Peed cross-check each other's findings and use community feedback when reviewing weights, so a proposal from this workshop goes to a community poll before it changes the matrix. Every exchange in the comparison is tested with €1,000 of real money, from deposit through a bitcoin purchase to withdrawal to a personal wallet. [Read the methodology and download the rating matrices (German).](https://lightupkryptos.de/so-testen-wir/)
 

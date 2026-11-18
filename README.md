@@ -17,7 +17,7 @@ On Saturday, 28 November 2026, 20–25 students form ten teams of two or three. 
 |---|---|---|
 | [Crypto Exchange Comparison](tracks/01-exchange.md) | How can we improve the crypto exchange comparison as a whole? | Revised criteria for the categories you choose, a usability test of five exchanges with real sign-ups and timings, a €10 cost test, and agents that collect public facts |
 | [Crypto Wallet Comparison](tracks/02-wallet.md) | What would a good software wallet comparison look like if we built it from scratch? | A provider list, criteria, scoring rules and weights for a new comparison, tried on three wallets |
-| [Crypto Taxtool Comparison](tracks/03-taxtool.md) | How can we improve the crypto tax tool comparison as a whole, including how it rates prices? | Revised criteria, a test with a shared sample dataset and the basis for a cost calculator |
+| [Crypto Taxtool Comparison](tracks/03-taxtool.md) | How can we improve the crypto tax tool comparison as a whole, including how it rates prices? | Revised criteria, a test with a shared [sample dataset](data/taxtool-sample/) and the basis for a cost calculator |
 
 Each track takes three or four teams. At team formation, the teams of one track agree on different focus areas, for example one category each, so that together they cover the whole comparison. The vote judges the result, not the size of the focus.
 

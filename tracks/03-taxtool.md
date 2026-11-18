@@ -20,7 +20,7 @@ The heaviest criterion, the quality of the tax report, is rated "good", "medium"
 
 ## Hands-on test
 
-Test with a shared sample dataset instead of your own data. LIGHT UP provides it before the event: synthetic transactions across several exchanges and a wallet, with purchases, sales, a swap and staking rewards, together with the expected taxable result. All teams use the same file.
+Test with a shared sample dataset instead of your own data. LIGHT UP provides the [taxtool sample dataset](../data/taxtool-sample/): 29 synthetic transactions across two exchanges and a wallet, with purchases, a savings plan, sales, a swap and staking rewards, together with the expected result for 2025. All teams use the same file.
 
 Sign up for the free version or trial of two or three tools, import the file and note in the [hands-on test log](../templates/hands-on-test.md): time to the first report, import errors, how easy the corrections are, and whether the report matches the expected result. Do not connect real exchange accounts or wallets and do not upload your own tax data. Your agent gets the public price pages and documentation; your impressions go into the prompt as text you write yourself.
 

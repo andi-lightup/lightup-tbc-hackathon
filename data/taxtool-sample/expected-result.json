@@ -1,0 +1,125 @@
+{
+  "tax_year": 2025,
+  "method": "FIFO; global and per-account FIFO give the same result for this dataset",
+  "private_sales_section_23": {
+    "gain_within_one_year_eur": "1848.38",
+    "gain_after_one_year_tax_free_eur": "-346.53",
+    "freigrenze_eur": "1000",
+    "taxable_eur": "1848.38"
+  },
+  "other_income_section_22_no_3": {
+    "staking_income_eur": "83.09",
+    "freigrenze_eur": "256",
+    "taxable_eur": "0.00"
+  },
+  "disposals": [
+    {
+      "id": "T16",
+      "date": "2025-07-15",
+      "type": "sell",
+      "asset": "BTC",
+      "amount": "0.03",
+      "lots": [
+        {
+          "acquired": "2024-12-02",
+          "amount": "0.03",
+          "cost_eur": "2746.33",
+          "proceeds_eur": "3009.52",
+          "gain_eur": "263.19",
+          "held_over_one_year": false
+        }
+      ]
+    },
+    {
+      "id": "T19",
+      "date": "2025-08-15",
+      "type": "swap",
+      "asset": "ETH",
+      "amount": "0.5",
+      "lots": [
+        {
+          "acquired": "2025-04-15",
+          "amount": "0.5",
+          "cost_eur": "720.01",
+          "proceeds_eur": "1925.49",
+          "gain_eur": "1205.49",
+          "held_over_one_year": false
+        }
+      ]
+    },
+    {
+      "id": "T22",
+      "date": "2025-09-15",
+      "type": "sell",
+      "asset": "SOL",
+      "amount": "11.88350923",
+      "lots": [
+        {
+          "acquired": "2025-08-15",
+          "amount": "11.88350923",
+          "cost_eur": "1925.49",
+          "proceeds_eur": "2372.77",
+          "gain_eur": "447.28",
+          "held_over_one_year": false
+        }
+      ]
+    },
+    {
+      "id": "T29",
+      "date": "2025-12-15",
+      "type": "sell",
+      "asset": "BTC",
+      "amount": "0.05",
+      "lots": [
+        {
+          "acquired": "2024-12-02",
+          "amount": "0.02",
+          "cost_eur": "1830.88",
+          "proceeds_eur": "1484.36",
+          "gain_eur": "-346.53",
+          "held_over_one_year": true
+        },
+        {
+          "acquired": "2025-01-05",
+          "amount": "0.00052576",
+          "cost_eur": "50.13",
+          "proceeds_eur": "39.02",
+          "gain_eur": "-11.11",
+          "held_over_one_year": false
+        },
+        {
+          "acquired": "2025-02-05",
+          "amount": "0.00053248",
+          "cost_eur": "50.13",
+          "proceeds_eur": "39.52",
+          "gain_eur": "-10.61",
+          "held_over_one_year": false
+        },
+        {
+          "acquired": "2025-03-05",
+          "amount": "0.00060089",
+          "cost_eur": "50.13",
+          "proceeds_eur": "44.60",
+          "gain_eur": "-5.53",
+          "held_over_one_year": false
+        },
+        {
+          "acquired": "2025-04-05",
+          "amount": "0.00065831",
+          "cost_eur": "50.13",
+          "proceeds_eur": "48.86",
+          "gain_eur": "-1.27",
+          "held_over_one_year": false
+        },
+        {
+          "acquired": "2025-04-15",
+          "amount": "0.02768256",
+          "cost_eur": "2093.60",
+          "proceeds_eur": "2054.54",
+          "gain_eur": "-39.06",
+          "held_over_one_year": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,8 +1,14 @@
 # LIGHT UP × TUM Blockchain Club Hackathon
 
-How would you choose a crypto exchange if you could see exactly how every rating was earned? And how would you explain crypto to a friend who had never heard of a blockchain?
+How would you choose a crypto exchange, a hardware wallet or a tax tool if you could see exactly how every rating was earned?
 
-This proposed three-hour workshop brings 30–40 students together in five teams. Four teams improve one part of a LIGHT UP comparison, the fifth looks for new ways to explain crypto to beginners. Every track starts from LIGHT UP's published rating matrix or material and ends with something LIGHT UP can use after the event. Andi and Peed from LIGHT UP support the teams.
+This three-hour hackathon brings 30–40 students together in about ten teams of three to four. Three tracks each improve one part of a LIGHT UP comparison, and every track ends with something LIGHT UP can use after the event. Several teams work on the same track independently, so LIGHT UP receives competing proposals for each question. Andi and Peed from LIGHT UP introduce the tracks with real examples and support the teams.
+
+## Before the event
+
+- The TUM Blockchain Club shares set-up documents and tutorials for the tech stacks you can build with.
+- Install the AI tools the club recommends (Gemini, KiroCrew) before you arrive.
+- Read the three track briefs and download the rating matrices.
 
 ## Choose your track
 
@@ -11,47 +17,45 @@ This proposed three-hour workshop brings 30–40 students together in five teams
 | [Crypto Exchange Comparison](tracks/01-exchange.md) | How can the security rating say more about how safe a customer's money is? | Revised security criteria with scoring rules, tested on two or three exchanges |
 | [Crypto Wallet Comparison](tracks/02-wallet.md) | How can we improve the security rating and explain its criteria to beginners? | Revised security criteria plus explanation texts for features such as passphrase and multi-signature |
 | [Crypto Taxtool Comparison](tracks/03-taxtool.md) | How can we improve the cost rating so that readers can find out which tool is cheapest for their number of transactions? | A price data model, a calculation and a display concept for a cost calculator on the website |
-| [Crypto Trading Comparison](tracks/04-trading.md) | How can trading costs and liquidity be measured reproducibly and kept current? | A documented slippage method and a script that collects slippage and funding data |
-| [Crypto Guide for Beginners](tracks/05-guide.md) | How do you explain crypto to someone who knows nothing about it? | New angles, explanations and exercises for LIGHT UP's book |
 
-Each brief shows the criteria it starts from, taken from the published methodology. Andi and Peed cross-check each other's findings and use community feedback when reviewing weights, so a proposal from this workshop goes to a community poll before it changes the matrix. Every exchange in the comparison is tested with €1,000 of real money, from deposit through a bitcoin purchase to withdrawal to a personal wallet. [Read the methodology and download the rating matrices (German).](https://lightupkryptos.de/so-testen-wir/)
+Each track takes three or four teams. Each brief shows the criteria it starts from, taken from the published methodology. Andi and Peed cross-check each other's findings and use community feedback when reviewing weights, so a proposal from this hackathon goes to a community poll before it changes the matrix. Every exchange in the comparison is tested with €1,000 of real money, from deposit through a bitcoin purchase to withdrawal to a personal wallet. [Read the methodology and download the rating matrices (German).](https://lightupkryptos.de/so-testen-wir/)
 
-## The brief for comparison teams
+## The brief for every team
 
-Start from the criteria in your brief. Define each scoring rule before you look at any product, then try it on two or three products. Show the current and proposed approach side by side. Ask someone from another team to reproduce one result using only your instructions. Record how long the check took and what would trigger the next one. A spreadsheet, sketch, short script or worked example is welcome. The directions in each brief are suggestions; choose your own if you can demonstrate it during the workshop.
+Start from the criteria in your brief. Define each scoring rule before you look at any product, then try it on two or three products. Show the current and proposed approach side by side. Ask a team from another track to reproduce one result using only your instructions. Record how long the check took and what would trigger the next one. A spreadsheet, sketch, short script, prototype or worked example is welcome. The directions in each brief are suggestions; choose your own if you can demonstrate it during the hackathon.
 
-A proposal can add or remove a criterion, change its scoring or points, or change how the result appears to readers. If you change points, show how the other criteria in the category are adjusted. [Comparison submission template](templates/comparison.md)
+A proposal can add or remove a criterion, change its scoring or points, or change how the result appears to readers. If you change points, show how the other criteria in the category are adjusted. Each brief also names a build option for teams that want to turn their proposal into a working tool. [Submission template](templates/comparison.md)
 
 ## Schedule
 
 | Time | Activity |
 |---|---|
-| 00:00–00:10 | Welcome. Andi and Peed trace one real matrix entry from source to rating and introduce the tracks. |
-| 00:10–00:15 | Move into five teams of roughly 6–8. |
-| 00:15–00:40 | Comparison teams study the current criteria and decide what to change. The guide team writes individual learning paths and compares them. |
-| 00:40–01:55 | Run the test and build the result, or develop the angles and the sample spread. |
-| 01:55–02:15 | Swap work with another team. Can a peer reproduce a result or complete the sample exercise? Revise and submit. |
-| 02:15–02:45 | Five pitches, each with four minutes to demonstrate the result and two minutes for questions. Open with an actual example. |
-| 02:45–03:00 | Participant vote, announcement of the winning team and next steps. |
+| 00:00–00:05 | Welcome and LIGHT UP in five minutes. |
+| 00:05–00:20 | Andi and Peed introduce the three tracks, each with a real example: how one exchange, one hardware wallet and one tax tool earned their points. |
+| 00:20–00:25 | Form about ten teams of three to four, three or four teams per track. |
+| 00:25–01:55 | Team work: decide what to change, define the scoring rules, test them on two or three products and build the result. |
+| 01:55–02:10 | Swap with a team from another track. Can they reproduce one result using only your instructions? Revise and submit. |
+| 02:10–02:50 | Ten pitches, each with three minutes to demonstrate the result and one minute for questions. Open with an actual example. |
+| 02:50–03:00 | Participant vote, announcement of the winning team and next steps. |
 
-For a two-hour session, collect track preferences in advance. A compact agenda allows 10 minutes for the introduction, 55 for team work, 15 for peer review, 30 for pitches and 10 for voting.
+For a two-hour session, collect track preferences in advance. A compact agenda allows 10 minutes for the introduction, 60 for team work, 10 for the peer check, 30 for pitches (two minutes plus one for questions) and 10 for voting.
 
 ## Submission and voting
 
-Use the template linked from your track brief. One team member submits the approved public material in a pull request under `submissions/<track>/`. Teams without a GitHub account can hand the same files to the organizers. Keep the guide team's individual learning paths and unpublished book passages in the collection channel agreed with contributors. A public summary can link to the track brief and describe what was tested.
+Use the [submission template](templates/comparison.md). One team member submits the approved public material in a pull request under `submissions/<track>/<team>/`. Teams without a GitHub account can hand the same files to the organizers.
 
-Each participant casts one vote for another team. Consider three questions equally. Does the result help the intended reader? Does the example support the claim? Can LIGHT UP use or test it after the event? The team with the most valid votes wins. In a tie, hold a runoff between the tied teams. The club may prepare a testnet ballot with one voting credential per participant and a check against voting for one’s own team. A simple form is the fallback.
+Each participant casts one vote for a team other than their own. Consider three questions equally. Does the result help the intended reader? Does the example support the claim? Can LIGHT UP use or test it after the event? The team with the most valid votes wins. In a tie, hold a runoff between the tied teams. The club may prepare a testnet ballot with one voting credential per participant and a check against voting for one's own team. A simple form is the fallback.
 
 ## Editorial ground rules
 
 - Cite sources, record the test date and distinguish observations, estimates and missing evidence. Keep the weaknesses visible even for the highest-scoring product.
-- Use plain language. For German website copy, follow LIGHT UP house style, including “Du” and “Sicherheit”.
+- Use plain language. For German website copy, follow LIGHT UP house style, including "Du" and "Sicherheit".
 - Keep the work educational. Exclude price predictions, trading signals, individual coin recommendations, investment advice and paid placements.
 - Use public sources, approved extracts or clearly labelled synthetic fixtures. Keep personal information, raw audience records, affiliate revenue, partner contracts and licensing terms out of submissions.
 
 ## Organizer checklist
 
-- Andi and Peed refine the briefs, then review the proposal with the [TUM Blockchain Club](https://www.tum-blockchain.com/). Confirm date, venue, duration, spoken language, team preferences and prize. Keep prize sponsorship independent of providers in the comparisons.
-- Prepare dated matrix extracts for each track and, where useful, small test packs. Agree who will distribute them and who collects the guide team's drafts.
-- Before collecting work, tell contributors which materials will be public and agree how code, data and writing may be reused, credited or included in the book. Significant contributors to the book can be named in it if they wish.
-- After the event, rerun promising tests, take proposed weighting changes to the LIGHT UP community and try the new angles with readers who are new to crypto. Record which changes are adopted and why.
+- **LIGHT UP:** Prepare the track introductions with one real example each, provide dated matrix extracts and be available to the teams during team work.
+- **TUM Blockchain Club:** Share set-up documents and tech-stack tutorials, ask participants to install the AI tools beforehand and prepare the vote.
+- **Together:** Confirm date, venue, spoken language and prize. Keep prize sponsorship independent of providers in the comparisons. Before collecting work, tell participants which materials will be public and agree how code, data and writing may be reused and credited.
+- **After the event:** LIGHT UP reruns promising tests, takes proposed weighting changes to its community and records which changes are adopted and why.

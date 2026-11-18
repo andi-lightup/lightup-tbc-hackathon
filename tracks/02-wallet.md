@@ -38,6 +38,8 @@ Work on two things. You can split the team.
 
 Define every scoring rule before you look at any device. Apply it to two or three devices using public manufacturer documentation. A physical device is only needed if your claim depends on hands-on testing.
 
+**Build option:** An interactive explainer that walks a beginner through the security features, or a page that shows how a device's security points add up.
+
 ## What LIGHT UP gets out of it
 
 A security rating with clearer criteria and better-argued weights, plus explanation texts LIGHT UP can use on the website and in videos. What LIGHT UP considers sound goes into the next version of the matrix, after the usual community poll.

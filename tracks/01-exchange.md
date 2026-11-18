@@ -27,6 +27,8 @@ Propose a better security rating. Keep the 27 points as the frame, unless you ca
 
 For each criterion, define the scoring rule before you look at any exchange. Then apply it to two or three exchanges, using only public sources.
 
+**Build option:** A small tool that checks when each exchange last published a proof of reserves, or a page that shows a reader how an exchange's security points add up.
+
 ## What LIGHT UP gets out of it
 
 A proposal LIGHT UP can put into its matrix: a revised list of security criteria, each with its scoring rule and maximum points, tested on two or three exchanges. What LIGHT UP considers sound goes into the next version of the matrix, after the usual community poll, so that the comparison becomes more transparent and easier to follow.

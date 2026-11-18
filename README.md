@@ -2,7 +2,7 @@
 
 How would you choose a crypto exchange, a software wallet or a tax tool if you could see exactly how every rating was earned?
 
-On Saturday, 28 November 2026, 20–25 students form ten teams of two or three. Three tracks each take on a whole LIGHT UP comparison: what to rate, how to rate it and how to test it. People test what only people can judge, such as how easy an app is to use. Agents collect and check the public facts. Every track ends with something LIGHT UP can use after the event. Several teams work on the same track independently, so LIGHT UP receives competing proposals. Andi and Peed from LIGHT UP introduce the tracks with real examples and support the teams.
+On Saturday, 28 November 2026, 20–25 students form ten teams of two or three. Three tracks each take on a whole LIGHT UP comparison: what to rate, how to rate it and how to test it. People test what only people can judge, such as how easy an app is to use. Agents collect and check the public facts. Every track ends with something LIGHT UP can use after the event. Several teams work on the same track independently, so LIGHT UP receives competing proposals. Andi from LIGHT UP introduces the tracks with real examples and supports the teams.
 
 ## Before the event
 
@@ -41,7 +41,7 @@ Agents never get access to your accounts. Do not give them logins, passwords, ve
 |---|---|
 | 10:00–11:00 | Blockchain 101 with the TUM Blockchain Club. |
 | 11:00–11:05 | Welcome and LIGHT UP in five minutes. |
-| 11:05–11:25 | Andi and Peed introduce the three tracks, each with a real example: how one exchange, one wallet and one tax tool earned their points. |
+| 11:05–11:25 | Andi introduces the three tracks, each with a real example: how one exchange, one wallet and one tax tool earned their points. |
 | 11:25–11:35 | Form ten teams of two or three. Each team chooses a track and a focus. |
 | 11:35–12:30 | Get your hands dirty: open test accounts or install the products, run the hands-on test, set up your agents. |
 | 12:30–14:30 | Lunch and outdoor break. Pending account verifications can complete in the meantime. |
@@ -66,7 +66,7 @@ Each participant casts one vote for a team other than their own. Consider three 
 
 ## Organizer checklist
 
-- **LIGHT UP:** Prepare the track introductions with one real example each, provide dated matrix extracts and be available to the teams during team work. Explain the affiliate links in the exchange track at the start.
+- **LIGHT UP:** Prepare the track introductions with one real example each (Andi presents on site), provide dated matrix extracts and be available to the teams during team work. Explain the affiliate links in the exchange track at the start.
 - **TUM Blockchain Club:** Share set-up documents and tech-stack tutorials, ask participants to install the AI tools beforehand and prepare the vote.
 - **Together:** Confirm venue, spoken language and prize. Keep prize sponsorship independent of providers in the comparisons. Before collecting work, tell participants which materials will be public and agree how code, data and writing may be reused and credited.
 - **After the event:** LIGHT UP reruns promising tests, takes proposed weighting changes to its community and records which changes are adopted and why.

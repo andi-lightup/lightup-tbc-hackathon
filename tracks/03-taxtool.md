@@ -1,46 +1,54 @@
 # Crypto Taxtool Comparison
 
-**Guiding question:** How can we improve the cost rating so that readers can find out which tool is cheapest for their number of transactions?
+**Guiding question:** How can we improve the crypto tax tool comparison as a whole, including how it rates prices?
 
 ## Starting point
 
-LIGHT UP compares 13 tools in seven categories. Costs carry 14 of 100 points:
+LIGHT UP compares 13 tools. The matrix has seven categories and 100 points:
 
-| Criterion | Scoring | Max. points |
+| Category | Criteria today | Points |
 |---|---|---|
-| Free version | Yes: 2 · no: 0 | 2 |
-| Lifetime licence | Yes: 2 · no: 0 | 2 |
-| Price for 100 transactions | Cheapest tool: 2.5 · most expensive: 0 · others: pro rata · not possible: 0 | 2.5 |
-| Price for 1,000 transactions | as above | 2.5 |
-| Price for 10,000 transactions | as above | 2.5 |
-| Price for unlimited transactions | as above | 2.5 |
+| Features | Quality of the tax report 20 · portfolio tracking 5 · reports for previous years 2 · individual tax advice 2 · WISO integration 2 | 31 |
+| Security | Registered office 5 · year founded 5 · Trustpilot 5 | 15 |
+| Costs | Free version 2 · lifetime licence 2 · price for 100, 1,000, 10,000 and unlimited transactions 2.5 each | 14 |
+| Usability | User interface 5 · app and desktop 2 · German language 5 | 12 |
+| Market coverage | Supported blockchains, exchanges and wallets 3 · coverage of the top 10 4 · NFT and DeFi support 3 | 10 |
+| Data import | Import methods 5 · automatic sync and permanent API connection 2 · display of import errors 1 · manual corrections 2 | 10 |
+| Customer support | Response time, quality and language | 8 |
 
-The tools price very differently: annual plans, transaction limits, per tax year, add-ons for DeFi or NFTs. A reader with 300 or 3,000 transactions a year cannot tell from four fixed price points which tool is cheapest for them. [Full methodology and matrix (German)](https://lightupkryptos.de/so-testen-wir/)
+The heaviest criterion, the quality of the tax report, is rated "good", "medium" or "poor". The prices are compared at four fixed points, although the tools price very differently: annual plans, transaction limits, per tax year, add-ons for DeFi or NFTs. A reader with 300 or 3,000 transactions a year cannot tell from four price points which tool is cheapest for them. [Full methodology and matrix (German)](https://lightupkryptos.de/so-testen-wir/)
+
+## Hands-on test
+
+Test with a shared sample dataset instead of your own data. One team builds it at the start, for example 50 to 100 synthetic transactions across two exchanges and one wallet, with purchases, sales, a swap and staking rewards, and works out the correct taxable result for it. All teams use the same file.
+
+Sign up for the free version or trial of two or three tools, import the file and note in the [hands-on test log](../templates/hands-on-test.md): time to the first report, import errors, how easy the corrections are, and whether the report matches the expected result. Do not connect real exchange accounts or wallets and do not upload your own tax data. Your agent gets the public price pages and documentation; your impressions go into the prompt as text you write yourself.
 
 ## Your task
 
-Build the basis for a calculator on the LIGHT UP website: a reader enters their yearly number of transactions and sees what each tool would cost them, next to its LIGHT UP rating.
+Choose one or two categories as your team's focus and propose a better version, with scoring rules and points. The other teams in your track take other categories. Possible directions:
 
-1. **Data model.** Define how a price plan is stored so that every tool fits: plan name, price, billing period, transaction limit, what happens above the limit, included features, source and date.
-2. **Price data.** Collect the current public price plans for at least five tools into that model.
-3. **Calculation.** Write a function that returns the cheapest suitable plan per tool for a given number of transactions. Decide how to handle edge cases: limits per tax year, features only in higher plans, prices in other currencies.
-4. **Display.** Sketch or prototype how the result appears on the website. The site runs on Next.js, so a small React component is directly reusable, but a clickable mock-up is fine too.
-5. **Scoring.** Propose whether the cost criteria should change once a calculator exists, for example by scoring the price ranges LIGHT UP viewers actually use.
+- **Costs and calculator:** Define a data model for price plans (plan, price, billing period, transaction limit, what happens above it, included features, source and date), collect the plans of at least five tools and write a function that returns the cheapest suitable plan for a given number of transactions. Then propose how the cost criteria should change once such a calculator exists.
+- **Report quality:** Can the sample dataset with its known result turn "good, medium, poor" into a repeatable test?
+- **Data import and market coverage:** Does the same file import cleanly everywhere? Are the exchanges and wallets German users actually use supported?
+- **The weights as a whole:** Does the split between features, costs, usability and security match what matters to someone doing their first crypto tax return?
 
-The display must stay neutral: it shows costs and ratings, it does not recommend a tool.
+Define every scoring rule before you look at any tool. Any display must stay neutral: it shows costs and ratings, it does not recommend a tool.
+
+**Build option:** The cost calculator as a small React component (the LIGHT UP website runs on Next.js) or a clickable mock-up, or a checker that compares a tool's report with the expected result of the sample dataset.
 
 ## What LIGHT UP gets out of it
 
-A dataset, a calculation and a display concept that LIGHT UP can build into the website, so readers get a cost comparison for their own situation instead of four fixed price points.
+Revised criteria for the categories the teams chose, a reusable sample dataset for future tests, and a data model, calculation and display concept for a cost calculator on the website. What LIGHT UP considers sound goes into the next version of the matrix, after the usual community poll.
 
 ## What to submit
 
 Complete the [comparison submission](../templates/comparison.md):
 
-1. The data model and the price data as CSV or JSON, with source and date per plan.
-2. The calculation as code or a spreadsheet, with three worked examples (for example 50, 800 and 5,000 transactions).
-3. The mock-up or prototype.
-4. A proposal for the cost criteria, with its effect on two or three tools.
+1. The current and proposed criteria side by side, with points.
+2. Results for two or three tools, with sources, dates and your hands-on test logs.
+3. Your data as CSV or JSON, for example the sample dataset or the price plans, with source and date.
+4. Code, spreadsheet or mock-up, with three worked examples where it applies (for example 50, 800 and 5,000 transactions).
 5. The outcome of a peer's attempt to reproduce one result using only your data and instructions.
 
 [Schedule and voting](../README.md#schedule)

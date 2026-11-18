@@ -9,13 +9,13 @@ On Saturday, 28 November 2026, 20–25 students form ten teams of two or three. 
 - The TUM Blockchain Club shares set-up documents and tutorials for the tech stacks you can build with.
 - Install the AI tools the club recommends (Gemini, KiroCrew) before you arrive.
 - Read the three track briefs and download the rating matrices.
-- If you want to open test accounts in the exchange track, bring your smartphone and an ID document. You do not need to deposit money. Taking part without an account is fine.
+- If you want to open test accounts in the exchange track, bring your smartphone and an ID document. For the optional cost test you need €10 of your own money and a way to deposit it. Taking part without an account is fine.
 
 ## Choose your track
 
 | Track brief | Guiding question | What LIGHT UP gets out of it |
 |---|---|---|
-| [Crypto Exchange Comparison](tracks/01-exchange.md) | How can we improve the crypto exchange comparison as a whole? | Revised criteria for the categories you choose, a usability test of five exchanges with real sign-ups and timings, and agents that collect public facts |
+| [Crypto Exchange Comparison](tracks/01-exchange.md) | How can we improve the crypto exchange comparison as a whole? | Revised criteria for the categories you choose, a usability test of five exchanges with real sign-ups and timings, a €10 cost test, and agents that collect public facts |
 | [Crypto Wallet Comparison](tracks/02-wallet.md) | What would a good software wallet comparison look like if we built it from scratch? | A provider list, criteria, scoring rules and weights for a new comparison, tried on three wallets |
 | [Crypto Taxtool Comparison](tracks/03-taxtool.md) | How can we improve the crypto tax tool comparison as a whole, including how it rates prices? | Revised criteria, a test with a shared sample dataset and the basis for a cost calculator |
 

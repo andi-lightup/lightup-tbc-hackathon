@@ -9,12 +9,24 @@ Track · Product · Date · Device and operating system · App or desktop
 | Step | Time (minutes) | Observation | Where you got stuck |
 |---|---|---|---|
 | Sign-up, from link click to confirmed account | | | |
-| Verification, from upload to confirmation (if required) | | | |
 | | | | |
 | | | | |
 | | | | |
 
 Use the steps from your track brief. Add a row for each further step.
+
+## Cost test (exchange track, optional)
+
+| Item | Value |
+|---|---|
+| Deposit method and deposit fee | |
+| Trading view (simple or advanced) | |
+| Shown before confirming: price, fee, total, time | |
+| Reference price, source and time | |
+| Euros paid, including deposit fee | |
+| Bitcoin received | |
+| Actual cost (euros paid minus bitcoin received × reference price) | |
+| Difference from the fee shown | |
 
 ## Overall impression
 

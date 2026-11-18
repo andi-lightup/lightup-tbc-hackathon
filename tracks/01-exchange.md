@@ -35,19 +35,29 @@ LIGHT UP has chosen five exchanges from its comparison for the hands-on test. Th
 
 ## Hands-on test
 
-Everyone who wants to opens an account at two or three of the five exchanges. Choose so that each exchange is tested by several people. You do not need to deposit money.
+Everyone who wants to opens an account at two or three of the five exchanges. Choose so that each exchange is tested by several people. Opening an account costs nothing; money is only needed for the optional cost test below.
 
 Follow the same steps at every exchange and note the results in the [hands-on test log](../templates/hands-on-test.md):
 
 1. **Sign-up.** Start a timer when you click the link. Stop it when the account is created and your e-mail or phone number is confirmed.
-2. **Verification.** Note when you submit your ID and when the exchange confirms it. If it is still pending at lunch, check again afterwards.
-3. **Fee page.** Find the page with the current trading fees. Note the time and where you found it.
-4. **Bitcoin purchase.** Prepare a purchase of €100 in bitcoin up to the confirmation screen and stop there. Does the screen show the price, spread and fee before you confirm? Does it show them without a balance?
-5. **Withdrawal.** Find where you would withdraw bitcoin to your own wallet.
-6. **Language and platforms.** Switch the app to German. Check whether there is an app and a desktop version.
-7. **Overall impression.** Rate the user interface on the matrix scale: clear, acceptable or not clear. Note where you got stuck.
+2. **Fee page.** Find the page with the current trading fees. Note the time and where you found it.
+3. **Bitcoin purchase.** Prepare a purchase of €10 in bitcoin up to the confirmation screen. Note what the screen shows before you confirm: price, fee, total. If you have no balance, note whether you get that far at all.
+4. **Withdrawal.** Find where you would withdraw bitcoin to your own wallet.
+5. **Language and platforms.** Switch the app to German. Check whether there is an app and a desktop version.
+6. **Overall impression.** Rate the user interface on the matrix scale: clear, acceptable or not clear. Note where you got stuck.
 
-Real trading fees cannot be measured without money. They come from LIGHT UP's own test with €1,000 per exchange. What you can test is whether an exchange shows its costs before you pay.
+### Cost test with €10 (optional)
+
+Do the costs an exchange shows match the costs you actually pay? To find out, deposit €10 and buy bitcoin for it.
+
+1. Before you confirm the purchase, note the price, fee and total shown, and the time.
+2. In the same minute, note the bitcoin price in euros from a public reference source. Agree on one source for the whole track before you start.
+3. After the purchase, take from the transaction history what you paid in euros, including any deposit fee, and how much bitcoin you received.
+4. Actual cost = euros paid minus the value of the bitcoin received at the reference price. Compare it with the fee shown in step 1. Your agent can do the calculation from the numbers you type in.
+
+Check beforehand that €10 is above the exchange's minimum deposit and order size. Note the deposit method and whether you used the simple or the advanced trading view, because fees can differ. The €10 test does not replace LIGHT UP's own test with €1,000 per exchange: at small amounts, fixed and minimum fees weigh more. It shows whether the displayed costs are accurate. The money is yours, and taking part is voluntary.
+
+### Privacy and taking part
 
 Taking part is voluntary. If you do not want to upload an ID, or your verification is rejected, test as far as you get without one, or pair up with someone. Your agent never sees your account: you write your observations into the prompt yourself. Blur personal data on screenshots. You can close the account after the event in the exchange's account settings or through its support.
 
@@ -57,7 +67,7 @@ Choose one or two categories as your team's focus and propose a better version, 
 
 - **Usability:** Does a three-step scale capture the differences you saw? Could fixed tasks with measured times make the rating repeatable? Which of today's usability criteria are features rather than usability?
 - **Security:** Proof of reserves, account protection such as security keys and withdrawal address whitelists, past incidents and whether customers were compensated, and what a BaFin or MiCA licence actually requires.
-- **Costs and transparency:** What makes a cost display "very transparent"? Does the order preview match the published fee page? How does the spread enter the rating?
+- **Costs and transparency:** What makes a cost display "very transparent"? Do the order preview, the published fee page and the actual cost from the €10 test match? How does the spread enter the rating?
 - **The weights as a whole:** Self-custody carries 18 points, usability 10. Does that match what matters to a beginner? Are payment methods, savings plans and the offer still measured in the right way?
 - **Data agents:** An agent that collects public facts for the five exchanges, such as licence register entries, fee pages, number of coins and payment methods, with source and date, and flags what has changed since the last check.
 
@@ -67,7 +77,7 @@ Define every scoring rule before you look at any exchange. Then apply it to two 
 
 ## What LIGHT UP gets out of it
 
-Revised criteria for the categories the teams chose, each with its scoring rule and points. Usability results for five exchanges from several testers each, with timings. Agents that keep the public facts current. What LIGHT UP considers sound goes into the next version of the matrix, after the usual community poll.
+Revised criteria for the categories the teams chose, each with its scoring rule and points. Usability results for five exchanges from several testers each, with timings, and a check of displayed against actual costs. Agents that keep the public facts current. What LIGHT UP considers sound goes into the next version of the matrix, after the usual community poll.
 
 ## What to submit
 

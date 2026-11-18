@@ -47,7 +47,7 @@ Complete the [comparison submission](../templates/comparison.md):
 
 1. The current and proposed criteria side by side, with points.
 2. Results for two or three tools, with sources, dates and your hands-on test logs.
-3. Your data as CSV or JSON, for example the sample dataset or the price plans, with source and date.
+3. Your data as CSV or JSON, for example the price plans, with source and date.
 4. Code, spreadsheet or mock-up, with three worked examples where it applies (for example 50, 800 and 5,000 transactions).
 5. The outcome of a peer's attempt to reproduce one result using only your data and instructions.
 

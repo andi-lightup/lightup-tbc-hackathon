@@ -18,6 +18,8 @@ LIGHT UP compares 13 tools. The matrix has seven categories and 100 points:
 
 The heaviest criterion, the quality of the tax report, is rated "good", "medium" or "poor". The prices are compared at four fixed points, although the tools price very differently: annual plans, transaction limits, per tax year, add-ons for DeFi or NFTs. A reader with 300 or 3,000 transactions a year cannot tell from four price points which tool is cheapest for them. Every criterion with its scoring rule: [full taxtool matrix](../matrices/taxtool.md).
 
+**Background video (German):** [Krypto-Steuertool-Vergleich 2026: 13 Anbieter im Test](https://youtu.be/Vs46Y9VhqGM). The rating matrix is more current than the video.
+
 ## Test set: five tax tools
 
 LIGHT UP has chosen five tools from its comparison for the hands-on test.
@@ -47,14 +49,13 @@ Record your results in the [hands-on test log](../templates/hands-on-test.md). D
 
 ## Your task
 
-Each team takes one focus. Pick it at team formation; each focus goes to one team only. Every team also answers the [weights question](../README.md#weights-question-for-every-team) for its categories.
+Each team takes one focus; teams form on site. Every team also answers the [weights question](../README.md#weights-question-for-every-team) for its categories.
 
-| Team | Focus | What you do |
+| Focus | Topic | What you do |
 |---|---|---|
-| Taxtool A | Costs and calculator | Define a data model for price plans (plan, price, billing period, transaction limit, what happens above it, included features, source and date). Collect the public price plans of the five tools, write a function that returns the cheapest suitable plan for a given number of transactions, and show the result. Propose how the cost criteria should change once a calculator exists. |
-| Taxtool B | Data import and transactions | Import the sample dataset into as many of the five tools as you can and run checks 1 to 4. Propose clearer criteria for data import (import methods, error display, corrections) and a repeatable import test LIGHT UP can rerun. |
-| Taxtool C | Tax report test | The quality of the tax report counts 20 points and is rated "good", "medium" or "poor". Design a test that turns this into clear rules, using the sample dataset and its [expected tax result](../data/taxtool-sample/README.md#expected-tax-result-for-2025): what a correct report must show, which deviations count as errors, how many points each outcome earns. LIGHT UP runs the test on the full reports after the event. |
-| Taxtool D | Data agent | Build an agent that keeps the public facts current: for the five tools, it collects the price plans, the number of supported exchanges, wallets and blockchains, import methods, German language, WISO integration and reports for previous years, each with source and date, and flags what has changed since the last run. Taxtool A can use its price data. Show which criteria it can fill on its own and which still need a person. |
+| A | Costs and calculator | Define a data model for price plans (plan, price, billing period, transaction limit, what happens above it, included features, source and date). Collect the public price plans of the five tools, write a function that returns the cheapest suitable plan for a given number of transactions, and show the result. Propose how the cost criteria should change once a calculator exists. |
+| B | Sample dataset test | Import the sample dataset into as many of the five tools as you can and run checks 1 to 4. Propose clearer criteria for data import (import methods, error display, corrections). Then draft a test for the quality of the tax report (20 points, today "good", "medium" or "poor"), based on the [expected tax result](../data/taxtool-sample/README.md#expected-tax-result-for-2025): what a correct report must show, which deviations count as errors, how many points each outcome earns. LIGHT UP runs it on the full reports after the event. |
+| C | Data agent | Build an agent that keeps the public facts current: for the five tools, it collects the price plans, the number of supported exchanges, wallets and blockchains, import methods, German language, WISO integration and reports for previous years, each with source and date, and flags what has changed since the last run. Focus A can use its price data. Show which criteria it can fill on its own and which still need a person. |
 
 Define every scoring rule before you look at any tool. Any display must stay neutral: it shows costs and ratings, it does not recommend a tool.
 

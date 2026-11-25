@@ -2,13 +2,13 @@
 
 How would you choose a crypto exchange, a software wallet or a tax tool if you could see exactly how every rating was earned?
 
-On Saturday, 28 November 2026, 20–25 students form ten teams of two or three. Three tracks each take on a whole LIGHT UP comparison: what to rate, how to rate it and how to test it. People test what only people can judge, such as how easy an app is to use. Agents collect and check the public facts. Every track ends with something LIGHT UP can use after the event. Several teams work on the same track independently, so LIGHT UP receives competing proposals. Andi from LIGHT UP introduces the tracks with real examples and supports the teams.
+On Saturday, 28 November 2026, about 20 students form teams of two or three. Three tracks each take on a whole LIGHT UP comparison: what to rate, how to rate it and how to test it. People test what only people can judge, such as how easy an app is to use. Agents collect and check the public facts. Every track ends with something LIGHT UP can use after the event. The teams of a track split the comparison between them, so together they cover all of it. Andi from LIGHT UP introduces the tracks with real examples and supports the teams.
 
 ## Before the event
 
 - The TUM Blockchain Club shares set-up documents and tutorials for the tech stacks you can build with.
 - Bring a laptop with the AI tools you like to work with. The club’s tutorials cover Gemini and Kiro Crew, but any tool is fine. Note in your submission which tools you used.
-- Read the three track briefs and download the rating matrices.
+- Read the three track briefs and the [rating matrices](matrices/). For context, each brief links LIGHT UP’s latest comparison video (German). The matrices are more current than the videos.
 - If you want to open test accounts in the exchange track, bring your smartphone and an ID document. For the optional cost test you need €10 of your own money and a way to deposit it. Taking part without an account is fine.
 
 ## Choose your track
@@ -19,15 +19,15 @@ On Saturday, 28 November 2026, 20–25 students form ten teams of two or three. 
 | [Crypto Wallet Comparison](tracks/02-wallet.md) | What would a good software wallet comparison look like if we built it from scratch? | A provider list, criteria, scoring rules and weights for a new comparison, tried on three wallets |
 | [Crypto Taxtool Comparison](tracks/03-taxtool.md) | How can we improve the crypto tax tool comparison as a whole, including how it rates prices? | Revised criteria, a test of five tools with a shared [sample dataset](data/taxtool-sample/) and the basis for a cost calculator |
 
-Each track has four fixed focuses, twelve in total. Each focus goes to one team only, and each track gets three or four teams, so two focuses stay open; LIGHT UP takes them up after the event. Focus D is the same in every track: a data agent that keeps the public facts of the comparison current.
+Each track has three fixed focuses, nine in total. Teams form on site on Saturday, once the number of participants is known: about 20 people in teams of two or three, ideally one team per focus. With fewer teams a focus stays open; with more, a focus can be taken twice. Focus C is the same in every track: a data agent that keeps the public facts of the comparison current.
 
-| Track | Team A | Team B | Team C | Team D |
-|---|---|---|---|---|
-| Exchanges | Usability | Costs and transparency | Security | Data agent |
-| Wallets | Scope and provider list | Security | Usability, features and pilot | Data agent |
-| Tax tools | Costs and calculator | Data import and transactions | Tax report test | Data agent |
+| Track | Focus A | Focus B | Focus C |
+|---|---|---|---|
+| Exchanges | Hands-on test: usability and costs | Security | Data agent |
+| Wallets | Security | Usability, features and pilot | Scope, provider list and data agent |
+| Tax tools | Costs and calculator | Sample dataset test | Data agent |
 
-Each team is named after its track and focus, for example "Exchange B", and may add a name of its own for the pitch. The fixed names are used for the submission folders and the ballot. The vote judges the result, not the size of the focus.
+Each team is named after its track and focus, for example "Exchange B", and may add a name of its own for the pitch. The names are used for the submission folders and the ballot. There is one winning team per track; the vote judges the result, not the size of the focus.
 
 Each brief shows the matrix it starts from. The full matrices with every scoring rule are in [matrices/](matrices/). Andi and Peed cross-check each other's findings and use community feedback when reviewing weights, so a proposal from this hackathon goes to a community poll before it changes the matrix. Every exchange in the comparison is tested with €1,000 of real money, from deposit through a bitcoin purchase to withdrawal to a personal wallet. [Read the methodology and download the rating matrices (German).](https://lightupkryptos.de/so-testen-wir/)
 
@@ -54,12 +54,12 @@ Agents never get access to your accounts. Do not give them logins, passwords, ve
 | 10:00–11:00 | Blockchain 101 with the TUM Blockchain Club. |
 | 11:00–11:05 | Welcome and LIGHT UP in five minutes. |
 | 11:05–11:25 | Andi introduces the three tracks, each with a real example: how one exchange, one wallet and one tax tool earned their points. |
-| 11:25–11:35 | Form ten teams of two or three. Each team picks one of the ten fixed focuses. |
+| 11:25–11:35 | Form teams of two or three on site. Each team picks one of the nine focuses. |
 | 11:35–12:30 | Get your hands dirty: open test accounts or install the products, run the hands-on test, set up your agents. |
 | 12:30–14:30 | Lunch and outdoor break. Pending account verifications can complete in the meantime. |
 | 14:30–16:15 | Last coding sprint: decide what to change, define the scoring rules, test them and build the result. |
 | 16:15–16:30 | Swap with a team from another track. Can they reproduce one result using only your instructions? Revise and submit. |
-| 16:30–17:10 | Ten pitches, each with three minutes to demonstrate the result and one minute for questions. Open with an actual example. |
+| 16:30–17:10 | One pitch per team, each with three minutes to demonstrate the result and one minute for questions. Open with an actual example. |
 | 17:10–17:30 | Participant vote and count. |
 | 17:30–18:00 | Award ceremony and next steps. |
 
@@ -67,7 +67,7 @@ Agents never get access to your accounts. Do not give them logins, passwords, ve
 
 Use the [submission template](templates/comparison.md). One team member submits the approved public material in a pull request under `submissions/<track>/<team>/`, for example `submissions/exchange/b/`. Teams without a GitHub account can hand the same files to the organizers.
 
-Each participant casts one vote for a team other than their own. Consider three questions equally. Does the result help the intended reader? Does the example support the claim? Can LIGHT UP use or test it after the event? The team with the most valid votes wins; the TUM Blockchain Club organises the prize. In a tie, hold a runoff between the tied teams. The club may prepare a testnet ballot with one voting credential per participant and a check against voting for one's own team. A simple form is the fallback.
+There are three winning teams, one per track. Each participant casts one vote in each track, never for their own team. Consider three questions equally. Does the result help the intended reader? Does the example support the claim? Can LIGHT UP use or test it after the event? In each track, the team with the most valid votes wins; the TUM Blockchain Club organises the prizes. In a tie, hold a runoff between the tied teams. The club may prepare a testnet ballot with one voting credential per participant and a check against voting for one's own team. A simple form is the fallback.
 
 ## Use of results
 

@@ -19,17 +19,21 @@ On Saturday, 28 November 2026, 20–25 students form ten teams of two or three. 
 | [Crypto Wallet Comparison](tracks/02-wallet.md) | What would a good software wallet comparison look like if we built it from scratch? | A provider list, criteria, scoring rules and weights for a new comparison, tried on three wallets |
 | [Crypto Taxtool Comparison](tracks/03-taxtool.md) | How can we improve the crypto tax tool comparison as a whole, including how it rates prices? | Revised criteria, a test of five tools with a shared [sample dataset](data/taxtool-sample/) and the basis for a cost calculator |
 
-The exchange track takes four teams, the wallet and taxtool tracks three each. Every team takes one fixed focus, so that together the teams of a track cover the whole comparison:
+Each track has four fixed focuses, twelve in total. Each focus goes to one team only, and each track gets three or four teams, so two focuses stay open; LIGHT UP takes them up after the event. Focus D is the same in every track: a data agent that keeps the public facts of the comparison current.
 
 | Track | Team A | Team B | Team C | Team D |
 |---|---|---|---|---|
-| Exchanges | Usability | Costs and transparency | Security | Data agent and weights |
-| Wallets | Scope, provider list and weights | Security | Usability, features and pilot | |
-| Tax tools | Costs and calculator | Data import and transactions | Tax report test and weights | |
+| Exchanges | Usability | Costs and transparency | Security | Data agent |
+| Wallets | Scope and provider list | Security | Usability, features and pilot | Data agent |
+| Tax tools | Costs and calculator | Data import and transactions | Tax report test | Data agent |
 
 Each team is named after its track and focus, for example "Exchange B", and may add a name of its own for the pitch. The fixed names are used for the submission folders and the ballot. The vote judges the result, not the size of the focus.
 
 Each brief shows the matrix it starts from. The full matrices with every scoring rule are in [matrices/](matrices/). Andi and Peed cross-check each other's findings and use community feedback when reviewing weights, so a proposal from this hackathon goes to a community poll before it changes the matrix. Every exchange in the comparison is tested with €1,000 of real money, from deposit through a bitcoin purchase to withdrawal to a personal wallet. [Read the methodology and download the rating matrices (German).](https://lightupkryptos.de/so-testen-wir/)
+
+### Weights question for every team
+
+Besides its focus, every team answers one question in its submission: do the weights of the categories it worked on fit what matters to a beginner? If not, propose new points and show how the rest of the matrix changes so that the total stays at 100. In the wallet track, where there is no matrix yet, each team proposes the points for its own criteria.
 
 ## The brief for every team
 

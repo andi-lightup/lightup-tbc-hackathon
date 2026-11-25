@@ -20,7 +20,7 @@ English transcription of the LIGHT UP infosheet (German original: [So testen wir
 | Year founded | Before 2016: 5 · after 2024: 0 · 2017 to 2023: pro rata | 5 |
 | Trustpilot | Points based on rating and number of reviews | 5 |
 
-## Costs · 14 points
+## Cost structure · 14 points
 
 | Criterion | Scoring | Max. |
 |---|---|---|

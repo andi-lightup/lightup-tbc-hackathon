@@ -10,7 +10,7 @@ LIGHT UP compares 13 tools. The matrix has seven categories and 100 points:
 |---|---|---|
 | Features | Quality of the tax report 20 · portfolio tracking 5 · reports for previous years 2 · individual tax advice 2 · WISO integration 2 | 31 |
 | Security | Registered office 5 · year founded 5 · Trustpilot 5 | 15 |
-| Costs | Free version 2 · lifetime licence 2 · price for 100, 1,000, 10,000 and unlimited transactions 2.5 each | 14 |
+| Cost structure | Free version 2 · lifetime licence 2 · price for 100, 1,000, 10,000 and unlimited transactions 2.5 each | 14 |
 | Usability | User interface 5 · app and desktop 2 · German language 5 | 12 |
 | Market coverage | Supported blockchains, exchanges and wallets 3 · coverage of the top 10 4 · NFT and DeFi support 3 | 10 |
 | Data import | Import methods 5 · automatic sync and permanent API connection 2 · display of import errors 1 · manual corrections 2 | 10 |
@@ -47,13 +47,14 @@ Record your results in the [hands-on test log](../templates/hands-on-test.md). D
 
 ## Your task
 
-Each team takes one focus. Pick it at team formation; each focus goes to one team only.
+Each team takes one focus. Pick it at team formation; each focus goes to one team only. Every team also answers the [weights question](../README.md#weights-question-for-every-team) for its categories.
 
 | Team | Focus | What you do |
 |---|---|---|
 | Taxtool A | Costs and calculator | Define a data model for price plans (plan, price, billing period, transaction limit, what happens above it, included features, source and date). Collect the public price plans of the five tools, write a function that returns the cheapest suitable plan for a given number of transactions, and show the result. Propose how the cost criteria should change once a calculator exists. |
 | Taxtool B | Data import and transactions | Import the sample dataset into as many of the five tools as you can and run checks 1 to 4. Propose clearer criteria for data import (import methods, error display, corrections) and a repeatable import test LIGHT UP can rerun. |
-| Taxtool C | Tax report test and weights | The quality of the tax report counts 20 points and is rated "good", "medium" or "poor". Design a test that turns this into clear rules, using the sample dataset and its [expected tax result](../data/taxtool-sample/README.md#expected-tax-result-for-2025): what a correct report must show, which deviations count as errors, how many points each outcome earns. LIGHT UP runs the test on the full reports after the event. Then review the weights as a whole: does the split match what matters to someone doing their first crypto tax return? |
+| Taxtool C | Tax report test | The quality of the tax report counts 20 points and is rated "good", "medium" or "poor". Design a test that turns this into clear rules, using the sample dataset and its [expected tax result](../data/taxtool-sample/README.md#expected-tax-result-for-2025): what a correct report must show, which deviations count as errors, how many points each outcome earns. LIGHT UP runs the test on the full reports after the event. |
+| Taxtool D | Data agent | Build an agent that keeps the public facts current: for the five tools, it collects the price plans, the number of supported exchanges, wallets and blockchains, import methods, German language, WISO integration and reports for previous years, each with source and date, and flags what has changed since the last run. Taxtool A can use its price data. Show which criteria it can fill on its own and which still need a person. |
 
 Define every scoring rule before you look at any tool. Any display must stay neutral: it shows costs and ratings, it does not recommend a tool.
 
@@ -61,7 +62,7 @@ Define every scoring rule before you look at any tool. Any display must stay neu
 
 ## What LIGHT UP gets out of it
 
-Revised criteria for costs and data import, a ready test for the quality of the tax report, import results of five tools with the same sample dataset, and a data model, calculation and display concept for a cost calculator on the website. What LIGHT UP considers sound goes into the next version of the matrix, after the usual community poll.
+Revised criteria for costs and data import, a ready test for the quality of the tax report, import results of five tools with the same sample dataset, a data model, calculation and display concept for a cost calculator on the website, and a data agent that keeps the facts on every tool current. What LIGHT UP considers sound goes into the next version of the matrix, after the usual community poll.
 
 ## What to submit
 

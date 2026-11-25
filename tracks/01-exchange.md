@@ -65,14 +65,14 @@ Taking part is voluntary. If you do not want to upload an ID, or your verificati
 
 ## Your task
 
-Each team takes one focus. Pick it at team formation; each focus goes to one team only. Teams A and B open the accounts; share your hands-on test logs with the whole track.
+Each team takes one focus. Pick it at team formation; each focus goes to one team only. Teams A and B open the accounts; share your hands-on test logs with the whole track. Every team also answers the [weights question](../README.md#weights-question-for-every-team) for its categories.
 
 | Team | Focus | What you do |
 |---|---|---|
 | Exchange A | Usability | Run the hands-on test at two or three exchanges with timings. Propose a usability rating that two testers would score the same way, covering user-friendliness, features and payment methods. |
 | Exchange B | Costs and transparency | Run the €10 cost test and compare fee page, order preview and actual cost. Propose what "very transparent" means and how the spread enters the rating. |
 | Exchange C | Security | Look beyond company facts: proof of reserves, account protection such as security keys and withdrawal address whitelists, past incidents and whether customers were compensated, what a BaFin or MiCA licence actually requires. Propose new security criteria. |
-| Exchange D | Data agent and weights | Build an agent that collects the public facts for the five exchanges (licence register entries, fee pages, number of coins, payment methods) with source and date and flags changes. Then review the weights as a whole: self-custody carries 18 points, usability 17. Does that match what matters to a beginner? |
+| Exchange D | Data agent | Build an agent that keeps the public facts of the comparison current: for the five exchanges, it collects licence register entries (BaFin, ESMA), fee pages, the number of coins, payment methods, savings plan, staking and German language, each with source and date, and flags what has changed since the last run. Show which criteria it can fill on its own and which still need a person. |
 
 Define every scoring rule before you look at any exchange. Then apply it to two or three of the five.
 

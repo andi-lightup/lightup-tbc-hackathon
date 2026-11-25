@@ -17,11 +17,19 @@ On Saturday, 28 November 2026, 20–25 students form ten teams of two or three. 
 |---|---|---|
 | [Crypto Exchange Comparison](tracks/01-exchange.md) | How can we improve the crypto exchange comparison as a whole? | Revised criteria for the categories you choose, a usability test of five exchanges with real sign-ups and timings, a €10 cost test, and agents that collect public facts |
 | [Crypto Wallet Comparison](tracks/02-wallet.md) | What would a good software wallet comparison look like if we built it from scratch? | A provider list, criteria, scoring rules and weights for a new comparison, tried on three wallets |
-| [Crypto Taxtool Comparison](tracks/03-taxtool.md) | How can we improve the crypto tax tool comparison as a whole, including how it rates prices? | Revised criteria, a test with a shared [sample dataset](data/taxtool-sample/) and the basis for a cost calculator |
+| [Crypto Taxtool Comparison](tracks/03-taxtool.md) | How can we improve the crypto tax tool comparison as a whole, including how it rates prices? | Revised criteria, a test of five tools with a shared [sample dataset](data/taxtool-sample/) and the basis for a cost calculator |
 
-Each track takes three or four teams. At team formation, the teams of one track agree on different focus areas, for example one category each, so that together they cover the whole comparison. The vote judges the result, not the size of the focus.
+The exchange track takes four teams, the wallet and taxtool tracks three each. Every team takes one fixed focus, so that together the teams of a track cover the whole comparison:
 
-Each brief shows the matrix it starts from, taken from the published methodology. Andi and Peed cross-check each other's findings and use community feedback when reviewing weights, so a proposal from this hackathon goes to a community poll before it changes the matrix. Every exchange in the comparison is tested with €1,000 of real money, from deposit through a bitcoin purchase to withdrawal to a personal wallet. [Read the methodology and download the rating matrices (German).](https://lightupkryptos.de/so-testen-wir/)
+| Track | Team A | Team B | Team C | Team D |
+|---|---|---|---|---|
+| Exchanges | Usability | Costs and transparency | Security | Data agent and weights |
+| Wallets | Scope, provider list and weights | Security | Usability, features and pilot | |
+| Tax tools | Costs and calculator | Tax report | Data import, usability and weights | |
+
+Each team is named after its track and focus, for example "Exchange B", and may add a name of its own for the pitch. The fixed names are used for the submission folders and the ballot. The vote judges the result, not the size of the focus.
+
+Each brief shows the matrix it starts from. The full matrices with every scoring rule are in [matrices/](matrices/). Andi and Peed cross-check each other's findings and use community feedback when reviewing weights, so a proposal from this hackathon goes to a community poll before it changes the matrix. Every exchange in the comparison is tested with €1,000 of real money, from deposit through a bitcoin purchase to withdrawal to a personal wallet. [Read the methodology and download the rating matrices (German).](https://lightupkryptos.de/so-testen-wir/)
 
 ## The brief for every team
 
@@ -42,7 +50,7 @@ Agents never get access to your accounts. Do not give them logins, passwords, ve
 | 10:00–11:00 | Blockchain 101 with the TUM Blockchain Club. |
 | 11:00–11:05 | Welcome and LIGHT UP in five minutes. |
 | 11:05–11:25 | Andi introduces the three tracks, each with a real example: how one exchange, one wallet and one tax tool earned their points. |
-| 11:25–11:35 | Form ten teams of two or three. Each team chooses a track and a focus. |
+| 11:25–11:35 | Form ten teams of two or three. Each team picks one of the ten fixed focuses. |
 | 11:35–12:30 | Get your hands dirty: open test accounts or install the products, run the hands-on test, set up your agents. |
 | 12:30–14:30 | Lunch and outdoor break. Pending account verifications can complete in the meantime. |
 | 14:30–16:15 | Last coding sprint: decide what to change, define the scoring rules, test them and build the result. |
@@ -53,9 +61,13 @@ Agents never get access to your accounts. Do not give them logins, passwords, ve
 
 ## Submission and voting
 
-Use the [submission template](templates/comparison.md). One team member submits the approved public material in a pull request under `submissions/<track>/<team>/`. Teams without a GitHub account can hand the same files to the organizers.
+Use the [submission template](templates/comparison.md). One team member submits the approved public material in a pull request under `submissions/<track>/<team>/`, for example `submissions/exchange/b/`. Teams without a GitHub account can hand the same files to the organizers.
 
-Each participant casts one vote for a team other than their own. Consider three questions equally. Does the result help the intended reader? Does the example support the claim? Can LIGHT UP use or test it after the event? The team with the most valid votes wins. In a tie, hold a runoff between the tied teams. The club may prepare a testnet ballot with one voting credential per participant and a check against voting for one's own team. A simple form is the fallback.
+Each participant casts one vote for a team other than their own. Consider three questions equally. Does the result help the intended reader? Does the example support the claim? Can LIGHT UP use or test it after the event? The team with the most valid votes wins; the TUM Blockchain Club organises the prize. In a tie, hold a runoff between the tied teams. The club may prepare a testnet ballot with one voting credential per participant and a check against voting for one's own team. A simple form is the fallback.
+
+## Use of results
+
+By submitting, you agree that LIGHT UP may use, adapt and publish your submission, for example in its comparisons, on its website and in videos. When LIGHT UP adopts a proposal, it credits the team by its team name.
 
 ## Editorial ground rules
 
@@ -68,5 +80,5 @@ Each participant casts one vote for a team other than their own. Consider three 
 
 - **LIGHT UP:** Prepare the track introductions with one real example each (Andi presents on site), provide dated matrix extracts and be available to the teams during team work. Explain the affiliate links in the exchange track at the start.
 - **TUM Blockchain Club:** Share set-up documents and tech-stack tutorials, ask participants to install the AI tools beforehand and prepare the vote.
-- **Together:** Confirm venue, spoken language and prize. Keep prize sponsorship independent of providers in the comparisons. Before collecting work, tell participants which materials will be public and agree how code, data and writing may be reused and credited.
+- **Together:** The event language is English. The TUM Blockchain Club organises the prize and keeps it independent of providers in the comparisons. Tell participants at the start which materials will be public and how LIGHT UP uses and credits results.
 - **After the event:** LIGHT UP reruns promising tests, takes proposed weighting changes to its community and records which changes are adopted and why.

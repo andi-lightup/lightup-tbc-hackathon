@@ -16,22 +16,39 @@ LIGHT UP compares 13 tools. The matrix has seven categories and 100 points:
 | Data import | Import methods 5 · automatic sync and permanent API connection 2 · display of import errors 1 · manual corrections 2 | 10 |
 | Customer support | Response time, quality and language | 8 |
 
-The heaviest criterion, the quality of the tax report, is rated "good", "medium" or "poor". The prices are compared at four fixed points, although the tools price very differently: annual plans, transaction limits, per tax year, add-ons for DeFi or NFTs. A reader with 300 or 3,000 transactions a year cannot tell from four price points which tool is cheapest for them. [Full methodology and matrix (German)](https://lightupkryptos.de/so-testen-wir/)
+The heaviest criterion, the quality of the tax report, is rated "good", "medium" or "poor". The prices are compared at four fixed points, although the tools price very differently: annual plans, transaction limits, per tax year, add-ons for DeFi or NFTs. A reader with 300 or 3,000 transactions a year cannot tell from four price points which tool is cheapest for them. Every criterion with its scoring rule: [full taxtool matrix](../matrices/taxtool.md).
+
+## Test set: five tax tools
+
+LIGHT UP has chosen five tools from its comparison for the hands-on test.
+
+| Tool | Sign-up link |
+|---|---|
+| CoinTracking | https://cointracking.info/?ref=LIGHTUP |
+| Blockpit | https://blockpit.cello.so/yr47XxGvXMr |
+| Coinfox | https://coinfox.cello.so/HpRUP4z1Ebs |
+| Divly | https://divly.com/?ref=mmvlmtc |
+| Coinpanda | https://coinpanda.io/?ref=lightup |
+
+**These are LIGHT UP affiliate links.** If you sign up or buy through one of them, LIGHT UP may receive a commission. Using them is optional; you can also open the tool's website directly. LIGHT UP enters partnerships only after a ranking is fixed, and commissions play no part in the ratings.
 
 ## Hands-on test
 
-Test with a shared sample dataset instead of your own data. LIGHT UP provides the [taxtool sample dataset](../data/taxtool-sample/): 29 synthetic transactions across two exchanges and a wallet, with purchases, a savings plan, sales, a swap and staking rewards, together with the expected result for 2025. All teams use the same file.
+Test with the [taxtool sample dataset](../data/taxtool-sample/) instead of your own data: ten synthetic transactions on one exchange, with purchases, sales, a swap and staking rewards, and the expected result for 2025. All teams use the same file.
 
-Sign up for the free version or trial of two or three tools, import the file and note in the [hands-on test log](../templates/hands-on-test.md): time to the first report, import errors, how easy the corrections are, and whether the report matches the expected result. Do not connect real exchange accounts or wallets and do not upload your own tax data. Your agent gets the public price pages and documentation; your impressions go into the prompt as text you write yourself.
+Sign up for the free version of two or three tools, import the file and note in the [hands-on test log](../templates/hands-on-test.md): how long the import takes, which errors appear, how easy the corrections are, and whether the result matches the expected one. Free versions usually let you import and review transactions, while the tax result or the report download often needs a paid plan. Note exactly what the free version shows; that is a finding for the costs category. Ask the LIGHT UP team about access to the full report.
+
+Do not connect real exchange accounts or wallets and do not upload your own tax data. Your agent gets the public price pages and documentation; your impressions go into the prompt as text you write yourself.
 
 ## Your task
 
-Choose one or two categories as your team's focus and propose a better version, with scoring rules and points. The other teams in your track take other categories. Possible directions:
+Each team takes one focus. Pick it at team formation; each focus goes to one team only.
 
-- **Costs and calculator:** Define a data model for price plans (plan, price, billing period, transaction limit, what happens above it, included features, source and date), collect the plans of at least five tools and write a function that returns the cheapest suitable plan for a given number of transactions. Then propose how the cost criteria should change once such a calculator exists.
-- **Report quality:** Can the sample dataset with its known result turn "good, medium, poor" into a repeatable test?
-- **Data import and market coverage:** Does the same file import cleanly everywhere? Are the exchanges and wallets German users actually use supported?
-- **The weights as a whole:** Does the split between features, costs, usability and security match what matters to someone doing their first crypto tax return?
+| Team | Focus | What you do |
+|---|---|---|
+| Taxtool A | Costs and calculator | Define a data model for price plans (plan, price, billing period, transaction limit, what happens above it, included features, source and date). Collect the plans of the five tools, write a function that returns the cheapest suitable plan for a given number of transactions, and show the result. Propose how the cost criteria should change once a calculator exists. |
+| Taxtool B | Tax report | Import the sample dataset into two or three tools and compare their result with the expected one. Propose a repeatable test that turns "good, medium, poor" for the tax report (20 points) into clear rules. |
+| Taxtool C | Data import, usability and weights | Import the same file into every tool you can: what fails, how corrections work, how long it takes. Propose criteria for data import and usability, then review the weights as a whole: does the split match what matters to someone doing their first crypto tax return? |
 
 Define every scoring rule before you look at any tool. Any display must stay neutral: it shows costs and ratings, it does not recommend a tool.
 
@@ -39,7 +56,7 @@ Define every scoring rule before you look at any tool. Any display must stay neu
 
 ## What LIGHT UP gets out of it
 
-Revised criteria for the categories the teams chose, results of several tools against the same sample dataset, and a data model, calculation and display concept for a cost calculator on the website. What LIGHT UP considers sound goes into the next version of the matrix, after the usual community poll.
+Revised criteria for costs, the tax report, data import and usability, results of several tools against the same sample dataset, and a data model, calculation and display concept for a cost calculator on the website. What LIGHT UP considers sound goes into the next version of the matrix, after the usual community poll.
 
 ## What to submit
 

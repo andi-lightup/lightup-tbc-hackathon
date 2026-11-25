@@ -4,20 +4,21 @@
 
 ## Starting point
 
-LIGHT UP compares 59 exchanges. The matrix has eight categories and 100 points:
+LIGHT UP compares 59 exchanges. The matrix has seven categories and 100 points:
 
 | Category | Criteria today | Points |
 |---|---|---|
-| Security and regulation | Registered office 10 · year founded 6 · BaFin or MiCA licence 7 · Trustpilot 4 | 27 |
+| Security | Registered office 10 · year founded 6 · BaFin or MiCA licence 7 · Trustpilot 4 | 27 |
 | Costs and transparency | Deposit and trading costs in the €1,000 test 10 · withdrawal 2 · transparency 8 | 20 |
 | Self-custody | Can customers withdraw crypto to their own wallet? | 18 |
-| Usability | User interface 2 · app and desktop 2 · German language 1 · basic order types 1 · performance tracking 2 · card 1 · interest on fiat 1 | 10 |
-| Payment methods | PayPal, Apple Pay, Google Pay, credit card 4 · deposit in EUR 1 · German IBAN 1 · standing order 1 | 7 |
+| Usability | User-friendliness 5 (interface, app and desktop, German) · features 5 (order types, performance tracking, card, interest on fiat) · payment methods 7 (PayPal, Apple Pay, Google Pay, credit card, EUR, German IBAN, standing order) | 17 |
 | Savings plan | Does the exchange offer one? | 7 |
 | Customer support | Response time, quality and language | 5 |
 | Offer | Number of coins and tokens 4 · stablecoins 1 · staking 1 | 6 |
 
-Some criteria rest on judgement. The user interface is rated "clear", "acceptable" or "not clear", support "good", "medium" or "poor", transparency "very transparent", "transparent" or "not transparent". Others describe the company only from the outside: security checks where an exchange sits and whether it is licensed, not how it protects the assets it holds. [Full methodology and matrix (German)](https://lightupkryptos.de/so-testen-wir/)
+Every criterion with its scoring rule: [full exchange matrix](../matrices/exchange.md).
+
+Some criteria rest on judgement. The user interface is rated "clear", "acceptable" or "not clear", support "good", "medium" or "poor", transparency "very transparent", "transparent" or "not transparent". Others describe the company only from the outside: security checks where an exchange sits and whether it is licensed, not how it protects the assets it holds.
 
 ## Test set: five exchanges
 
@@ -63,13 +64,14 @@ Taking part is voluntary. If you do not want to upload an ID, or your verificati
 
 ## Your task
 
-Choose one or two categories as your team's focus and propose a better version, with scoring rules and points. The other teams in your track take other categories. Possible directions:
+Each team takes one focus. Pick it at team formation; each focus goes to one team only. Teams A and B open the accounts; share your hands-on test logs with the whole track.
 
-- **Usability:** Does a three-step scale capture the differences you saw? Could fixed tasks with measured times make the rating repeatable? Which of today's usability criteria are features rather than usability?
-- **Security:** Proof of reserves, account protection such as security keys and withdrawal address whitelists, past incidents and whether customers were compensated, and what a BaFin or MiCA licence actually requires.
-- **Costs and transparency:** What makes a cost display "very transparent"? Do the order preview, the published fee page and the actual cost from the €10 test match? How does the spread enter the rating?
-- **The weights as a whole:** Self-custody carries 18 points, usability 10. Does that match what matters to a beginner? Are payment methods, savings plans and the offer still measured in the right way?
-- **Data agents:** An agent that collects public facts for the five exchanges, such as licence register entries, fee pages, number of coins and payment methods, with source and date, and flags what has changed since the last check.
+| Team | Focus | What you do |
+|---|---|---|
+| Exchange A | Usability | Run the hands-on test at two or three exchanges with timings. Propose a usability rating that two testers would score the same way, covering user-friendliness, features and payment methods. |
+| Exchange B | Costs and transparency | Run the €10 cost test and compare fee page, order preview and actual cost. Propose what "very transparent" means and how the spread enters the rating. |
+| Exchange C | Security | Look beyond company facts: proof of reserves, account protection such as security keys and withdrawal address whitelists, past incidents and whether customers were compensated, what a BaFin or MiCA licence actually requires. Propose new security criteria. |
+| Exchange D | Data agent and weights | Build an agent that collects the public facts for the five exchanges (licence register entries, fee pages, number of coins, payment methods) with source and date and flags changes. Then review the weights as a whole: self-custody carries 18 points, usability 17. Does that match what matters to a beginner? |
 
 Define every scoring rule before you look at any exchange. Then apply it to two or three of the five.
 
@@ -77,7 +79,7 @@ Define every scoring rule before you look at any exchange. Then apply it to two 
 
 ## What LIGHT UP gets out of it
 
-Revised criteria for the categories the teams chose, each with its scoring rule and points. Usability results for five exchanges from several testers each, with timings, and a check of displayed against actual costs. Agents that keep the public facts current. What LIGHT UP considers sound goes into the next version of the matrix, after the usual community poll.
+Revised criteria for usability, costs and security, each with scoring rules and points. Usability results for five exchanges from several testers each, with timings, and a check of displayed against actual costs. Agents that keep the public facts current. What LIGHT UP considers sound goes into the next version of the matrix, after the usual community poll.
 
 ## What to submit
 

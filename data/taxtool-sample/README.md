@@ -24,7 +24,22 @@ Everything happens on one exchange, "Exchange A", without fees.
 | T09 | 15.09.2025 | Sell all SOL for €4,757.44 |
 | T10 | 15.12.2025 | Sell 0.05 BTC for €3,720.19 |
 
-## Expected result for 2025
+## What a free version can check
+
+The free versions of most tools let you import and review transactions and show a portfolio, but not the tax result. Two checks work without paying:
+
+1. **Every transaction is recognised correctly:** ten transactions, with the right type (buy, sell, swap, staking reward), amounts, dates and euro values.
+2. **The holdings on 31.12.2025 match:**
+
+| Asset | Amount | Cost basis |
+|---|---|---|
+| BTC | 0.01 | €754.40 (the rest of T02) |
+| ETH | 0.009 | €17.71 (the three staking rewards) |
+| SOL | 0 | €0.00 |
+
+## Expected tax result for 2025
+
+This needs a tool's paid tax report. It is the reference for a later full test and for designing the report test.
 
 | Sale | Coins used (FIFO) | Gain | Taxable? |
 |---|---|---|---|

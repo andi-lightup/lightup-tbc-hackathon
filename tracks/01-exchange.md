@@ -4,7 +4,7 @@
 
 ## Starting point
 
-LIGHT UP compares 59 exchanges. The matrix has seven categories and 100 points:
+LIGHT UP compares 59 exchanges. The matrix has eight categories and 100 points:
 
 | Category | Criteria today | Points |
 |---|---|---|
@@ -14,7 +14,8 @@ LIGHT UP compares 59 exchanges. The matrix has seven categories and 100 points:
 | Usability | User-friendliness 5 (interface, app and desktop, German) · features 5 (order types, performance tracking, card, interest on fiat) · payment methods 7 (PayPal, Apple Pay, Google Pay, credit card, EUR, German IBAN, standing order) | 17 |
 | Savings plan | Does the exchange offer one? | 7 |
 | Customer support | Response time, quality and language | 5 |
-| Offer | Number of coins and tokens 4 · stablecoins 1 · staking 1 | 6 |
+| Offer | Number of coins and tokens 4 · stablecoins 1 | 5 |
+| Staking | Does the exchange offer staking? | 1 |
 
 Every criterion with its scoring rule: [full exchange matrix](../matrices/exchange.md).
 

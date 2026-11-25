@@ -34,11 +34,16 @@ LIGHT UP has chosen five tools from its comparison for the hands-on test.
 
 ## Hands-on test
 
-Test with the [taxtool sample dataset](../data/taxtool-sample/) instead of your own data: ten synthetic transactions on one exchange, with purchases, sales, a swap and staking rewards, and the expected result for 2025. All teams use the same file.
+Test with the [taxtool sample dataset](../data/taxtool-sample/) instead of your own data: ten synthetic transactions on one exchange, with purchases, sales, a swap and staking rewards. All teams use the same file.
 
-Sign up for the free version of two or three tools, import the file and note in the [hands-on test log](../templates/hands-on-test.md): how long the import takes, which errors appear, how easy the corrections are, and whether the result matches the expected one. Free versions usually let you import and review transactions, while the tax result or the report download often needs a paid plan. Note exactly what the free version shows; that is a finding for the costs category. Ask the LIGHT UP team about access to the full report.
+Use only the free versions; nobody needs to buy a plan. Free versions let you import and review transactions and show a portfolio, but usually not the tax result. So the hands-on test checks what a free version can show:
 
-Do not connect real exchange accounts or wallets and do not upload your own tax data. Your agent gets the public price pages and documentation; your impressions go into the prompt as text you write yourself.
+1. **Import:** convert the file to the tool's import format and import it. Note how long it takes and which errors appear.
+2. **Transactions:** are all ten recognised with the right type, amount, date and euro value? How easy is it to correct one?
+3. **Holdings:** do the holdings on 31.12.2025 match the expected ones (0.01 BTC, 0.009 ETH, 0 SOL)?
+4. **Free version:** note exactly what the free version shows and what it keeps behind a paywall.
+
+Record your results in the [hands-on test log](../templates/hands-on-test.md). Do not connect real exchange accounts or wallets and do not upload your own tax data. Your agent gets the public price pages and documentation; your impressions go into the prompt as text you write yourself.
 
 ## Your task
 
@@ -46,9 +51,9 @@ Each team takes one focus. Pick it at team formation; each focus goes to one tea
 
 | Team | Focus | What you do |
 |---|---|---|
-| Taxtool A | Costs and calculator | Define a data model for price plans (plan, price, billing period, transaction limit, what happens above it, included features, source and date). Collect the plans of the five tools, write a function that returns the cheapest suitable plan for a given number of transactions, and show the result. Propose how the cost criteria should change once a calculator exists. |
-| Taxtool B | Tax report | Import the sample dataset into two or three tools and compare their result with the expected one. Propose a repeatable test that turns "good, medium, poor" for the tax report (20 points) into clear rules. |
-| Taxtool C | Data import, usability and weights | Import the same file into every tool you can: what fails, how corrections work, how long it takes. Propose criteria for data import and usability, then review the weights as a whole: does the split match what matters to someone doing their first crypto tax return? |
+| Taxtool A | Costs and calculator | Define a data model for price plans (plan, price, billing period, transaction limit, what happens above it, included features, source and date). Collect the public price plans of the five tools, write a function that returns the cheapest suitable plan for a given number of transactions, and show the result. Propose how the cost criteria should change once a calculator exists. |
+| Taxtool B | Data import and transactions | Import the sample dataset into as many of the five tools as you can and run checks 1 to 4. Propose clearer criteria for data import (import methods, error display, corrections) and a repeatable import test LIGHT UP can rerun. |
+| Taxtool C | Tax report test and weights | The quality of the tax report counts 20 points and is rated "good", "medium" or "poor". Design a test that turns this into clear rules, using the sample dataset and its [expected tax result](../data/taxtool-sample/README.md#expected-tax-result-for-2025): what a correct report must show, which deviations count as errors, how many points each outcome earns. LIGHT UP runs the test on the full reports after the event. Then review the weights as a whole: does the split match what matters to someone doing their first crypto tax return? |
 
 Define every scoring rule before you look at any tool. Any display must stay neutral: it shows costs and ratings, it does not recommend a tool.
 
@@ -56,14 +61,14 @@ Define every scoring rule before you look at any tool. Any display must stay neu
 
 ## What LIGHT UP gets out of it
 
-Revised criteria for costs, the tax report, data import and usability, results of several tools against the same sample dataset, and a data model, calculation and display concept for a cost calculator on the website. What LIGHT UP considers sound goes into the next version of the matrix, after the usual community poll.
+Revised criteria for costs and data import, a ready test for the quality of the tax report, import results of five tools with the same sample dataset, and a data model, calculation and display concept for a cost calculator on the website. What LIGHT UP considers sound goes into the next version of the matrix, after the usual community poll.
 
 ## What to submit
 
 Complete the [comparison submission](../templates/comparison.md):
 
 1. The current and proposed criteria side by side, with points.
-2. Results for two or three tools, with sources, dates and your hands-on test logs.
+2. Results for the tools you tested, with sources, dates and your hands-on test logs.
 3. Your data as CSV or JSON, for example the price plans, with source and date.
 4. Code, spreadsheet or mock-up, with three worked examples where it applies (for example 50, 800 and 5,000 transactions).
 5. The outcome of a peer's attempt to reproduce one result using only your data and instructions.

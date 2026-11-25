@@ -1,6 +1,6 @@
 # Comparison team submission
 
-Track · Test date · Matrix version · Category and criteria you worked on
+Team name · Track · Test date · Matrix version · Category and criteria you worked on · AI tools used
 
 ## Proposed change
 

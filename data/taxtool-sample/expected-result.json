@@ -12,6 +12,20 @@
     "freigrenze_eur": "256",
     "taxable_eur": "0.00"
   },
+  "holdings_31_12_2025": {
+    "BTC": {
+      "amount": "0.01",
+      "cost_basis_eur": "754.40"
+    },
+    "ETH": {
+      "amount": "0.009",
+      "cost_basis_eur": "17.71"
+    },
+    "SOL": {
+      "amount": "0",
+      "cost_basis_eur": "0.00"
+    }
+  },
   "disposals": [
     {
       "id": "T07",

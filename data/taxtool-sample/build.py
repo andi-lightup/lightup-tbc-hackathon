@@ -129,6 +129,9 @@ for t in tx:
         disposals.append({"id": t["id"], "date": d.isoformat(), "type": t["type"],
                           "asset": t["sent_asset"], "amount": str(amount), "lots": parts})
 
+holdings = {a: {"amount": str(sum((l[1] for l in q), Decimal(0))), "cost_basis_eur": str(eur(sum((l[2] for l in q), Decimal(0))))}
+            for a, q in sorted(lots.items())}
+
 in_year = [x for x in disposals if x["date"].startswith(str(TAX_YEAR))]
 taxable_gain = sum(Decimal(p["gain_eur"]) for x in in_year for p in x["lots"] if not p["held_over_one_year"])
 tax_free_gain = sum(Decimal(p["gain_eur"]) for x in in_year for p in x["lots"] if p["held_over_one_year"])
@@ -148,6 +151,7 @@ result = {
         "freigrenze_eur": str(FREIGRENZE_22),
         "taxable_eur": str(staking_income if staking_income >= FREIGRENZE_22 else Decimal("0.00")),
     },
+    "holdings_31_12_2025": holdings,
     "disposals": disposals,
     "staking_rewards": staking,
 }

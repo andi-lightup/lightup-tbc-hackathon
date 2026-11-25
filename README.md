@@ -7,7 +7,7 @@ On Saturday, 28 November 2026, 20–25 students form ten teams of two or three. 
 ## Before the event
 
 - The TUM Blockchain Club shares set-up documents and tutorials for the tech stacks you can build with.
-- Install the AI tools the club recommends (Gemini, KiroCrew) before you arrive.
+- Bring a laptop with the AI tools you like to work with. The club’s tutorials cover Gemini and Kiro Crew, but any tool is fine. Note in your submission which tools you used.
 - Read the three track briefs and download the rating matrices.
 - If you want to open test accounts in the exchange track, bring your smartphone and an ID document. For the optional cost test you need €10 of your own money and a way to deposit it. Taking part without an account is fine.
 
@@ -25,7 +25,7 @@ The exchange track takes four teams, the wallet and taxtool tracks three each. E
 |---|---|---|---|---|
 | Exchanges | Usability | Costs and transparency | Security | Data agent and weights |
 | Wallets | Scope, provider list and weights | Security | Usability, features and pilot | |
-| Tax tools | Costs and calculator | Tax report | Data import, usability and weights | |
+| Tax tools | Costs and calculator | Data import and transactions | Tax report test and weights | |
 
 Each team is named after its track and focus, for example "Exchange B", and may add a name of its own for the pitch. The fixed names are used for the submission folders and the ballot. The vote judges the result, not the size of the focus.
 
@@ -79,6 +79,6 @@ By submitting, you agree that LIGHT UP may use, adapt and publish your submissio
 ## Organizer checklist
 
 - **LIGHT UP:** Prepare the track introductions with one real example each (Andi presents on site), provide dated matrix extracts and be available to the teams during team work. Explain the affiliate links in the exchange track at the start.
-- **TUM Blockchain Club:** Share set-up documents and tech-stack tutorials, ask participants to install the AI tools beforehand and prepare the vote.
+- **TUM Blockchain Club:** Share set-up documents and tech-stack tutorials, share tutorials for AI tools such as Gemini and Kiro Crew and prepare the vote.
 - **Together:** The event language is English. The TUM Blockchain Club organises the prize and keeps it independent of providers in the comparisons. Tell participants at the start which materials will be public and how LIGHT UP uses and credits results.
 - **After the event:** LIGHT UP reruns promising tests, takes proposed weighting changes to its community and records which changes are adopted and why.

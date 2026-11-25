@@ -1,6 +1,6 @@
 # Rating matrix: Crypto Exchange Comparison
 
-English transcription of the LIGHT UP infosheet (German original: [So testen wir](https://lightupkryptos.de/so-testen-wir/)). An exchange can reach 100 points. Rating = points ÷ 10, so 100 points are a rating of 10.00.
+English transcription of the LIGHT UP infosheet (German original: [So testen wir](https://lightupkryptos.de/so-testen-wir/)). The matrix has eight categories: security, costs and transparency, self-custody, usability, savings plan, customer support, offer and staking. An exchange can reach 100 points. Rating = points ÷ 10, so 100 points are a rating of 10.00.
 
 ## Security · 27 points
 
@@ -55,10 +55,15 @@ Costs are measured with €1,000 of real money per exchange, from deposit throug
 |---|---|---|
 | Several questions asked; response time, quality and language rated | Good: full points · medium: half · poor: 0 | 5 |
 
-## Offer · 6 points
+## Offer · 5 points
 
 | Criterion | Scoring | Max. |
 |---|---|---|
 | Number of coins and tokens | 500 or more: full points · 100–499: 3 · 10–99: 2 · 2–9: 1 · fewer than 2: 0 | 4 |
 | Stablecoins available | Yes: full points · no: 0 | 1 |
-| Staking available | Yes: full points · no: 0 | 1 |
+
+## Staking · 1 point
+
+| Criterion | Scoring | Max. |
+|---|---|---|
+| The exchange offers staking | Yes: full points · no: 0 | 1 |

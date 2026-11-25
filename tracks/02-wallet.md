@@ -42,4 +42,4 @@ Complete the [comparison submission](../templates/comparison.md):
 4. Explanation texts for at least four criteria, each under 120 words, tested on a peer from another team (focus A).
 5. The outcome of a peer's attempt to reproduce one result using only your instructions.
 
-[Schedule and voting](../README.md#schedule)
+[Submission and evaluation](../README.md#submission-and-evaluation)

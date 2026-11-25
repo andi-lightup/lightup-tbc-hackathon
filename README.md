@@ -27,7 +27,7 @@ Each track has three fixed focuses, nine in total. Teams form on site on Saturda
 | Wallets | Security | Usability, features and pilot | Scope, provider list and data agent |
 | Tax tools | Costs and calculator | Sample dataset test | Data agent |
 
-Each team is named after its track and focus, for example "Exchange B", and may add a name of its own for the pitch. The names are used for the submission folders and the ballot. There is one winning team per track; the vote judges the result, not the size of the focus.
+Each team is named after its track and focus, for example "Exchange B", and may add a name of its own for the pitch. There is one winning team per track; the evaluation judges the result, not the size of the focus.
 
 Each brief shows the matrix it starts from. The full matrices with every scoring rule are in [matrices/](matrices/). Andi and Peed cross-check each other's findings and use community feedback when reviewing weights, so a proposal from this hackathon goes to a community poll before it changes the matrix. Every exchange in the comparison is tested with €1,000 of real money, from deposit through a bitcoin purchase to withdrawal to a personal wallet. [Read the methodology and download the rating matrices (German).](https://lightupkryptos.de/so-testen-wir/)
 
@@ -47,27 +47,18 @@ People test, agents collect. Use your agents for public facts: fee pages, licenc
 
 Agents never get access to your accounts. Do not give them logins, passwords, verification codes, ID documents, API keys, seed phrases or screenshots that show personal data. Blur personal data before you share any screenshot with your team.
 
-## Schedule
+## Submission and evaluation
 
-| Time | Activity |
-|---|---|
-| 10:00–11:00 | Blockchain 101 with the TUM Blockchain Club. |
-| 11:00–11:05 | Welcome and LIGHT UP in five minutes. |
-| 11:05–11:25 | Andi introduces the three tracks, each with a real example: how one exchange, one wallet and one tax tool earned their points. |
-| 11:25–11:35 | Form teams of two or three on site. Each team picks one of the nine focuses. |
-| 11:35–12:30 | Get your hands dirty: open test accounts or install the products, run the hands-on test, set up your agents. |
-| 12:30–14:30 | Lunch and outdoor break. Pending account verifications can complete in the meantime. |
-| 14:30–16:15 | Last coding sprint: decide what to change, define the scoring rules, test them and build the result. |
-| 16:15–16:30 | Swap with a team from another track. Can they reproduce one result using only your instructions? Revise and submit. |
-| 16:30–17:10 | One pitch per team, each with three minutes to demonstrate the result and one minute for questions. Open with an actual example. |
-| 17:10–17:30 | Participant vote and count. |
-| 17:30–18:00 | Award ceremony and next steps. |
+Upload your results in the TUM Blockchain Club's submission tool; you get the link on the day. Use the [submission template](templates/comparison.md) for your write-up.
 
-## Submission and voting
+Each team can reach 100 points:
 
-Use the [submission template](templates/comparison.md). One team member submits the approved public material in a pull request under `submissions/<track>/<team>/`, for example `submissions/exchange/b/`. Teams without a GitHub account can hand the same files to the organizers.
+| Part | Points | Who scores it |
+|---|---|---|
+| Submission | 0–50 | An AI agent checks the uploaded results against the track's specifications and requirements |
+| Pitch | 0–50 | The jury scores each pitch with the [pitch scoring sheet](templates/pitch-scoring.md) |
 
-There are three winning teams, one per track. Each participant casts one vote in each track, never for their own team. Consider three questions equally. Does the result help the intended reader? Does the example support the claim? Can LIGHT UP use or test it after the event? In each track, the team with the most valid votes wins; the TUM Blockchain Club organises the prizes. In a tie, hold a runoff between the tied teams. The club may prepare a testnet ballot with one voting credential per participant and a check against voting for one's own team. A simple form is the fallback.
+The team with the most points in each track wins, so there are three winning teams. The TUM Blockchain Club organises the prizes.
 
 ## Use of results
 
@@ -83,6 +74,6 @@ By submitting, you agree that LIGHT UP may use, adapt and publish your submissio
 ## Organizer checklist
 
 - **LIGHT UP:** Prepare the track introductions with one real example each (Andi presents on site), provide dated matrix extracts and be available to the teams during team work. Explain the affiliate links in the exchange track at the start.
-- **TUM Blockchain Club:** Share set-up documents and tech-stack tutorials, share tutorials for AI tools such as Gemini and Kiro Crew and prepare the vote.
+- **TUM Blockchain Club:** Share set-up documents and tech-stack tutorials, share tutorials for AI tools such as Gemini and Kiro Crew, and run the submission tool with its AI check.
 - **Together:** The event language is English. The TUM Blockchain Club organises the prize and keeps it independent of providers in the comparisons. Tell participants at the start which materials will be public and how LIGHT UP uses and credits results.
 - **After the event:** LIGHT UP reruns promising tests, takes proposed weighting changes to its community and records which changes are adopted and why.

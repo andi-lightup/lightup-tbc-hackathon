@@ -4,7 +4,7 @@
 
 ## Starting point
 
-LIGHT UP compares 59 exchanges. The matrix has eight categories and 100 points:
+LIGHT UP compares 59 exchanges. The video below tested 61; after regulatory changes, 59 of them are still available to retail customers in Germany. The matrix has eight categories and 100 points:
 
 | Category | Criteria today | Points |
 |---|---|---|
@@ -94,4 +94,4 @@ Complete the [comparison submission](../templates/comparison.md):
 5. The outcome of a peer's attempt to reproduce one result using only your instructions.
 6. How long one check took, and what would trigger the next one.
 
-[Schedule and voting](../README.md#schedule)
+[Submission and evaluation](../README.md#submission-and-evaluation)

@@ -75,4 +75,4 @@ Complete the [comparison submission](../templates/comparison.md):
 4. Code, spreadsheet or mock-up, with three worked examples where it applies (for example 50, 800 and 5,000 transactions).
 5. The outcome of a peer's attempt to reproduce one result using only your data and instructions.
 
-[Schedule and voting](../README.md#schedule)
+[Submission and evaluation](../README.md#submission-and-evaluation)

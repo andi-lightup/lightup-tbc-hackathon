@@ -8,7 +8,7 @@ LIGHT UP compares 13 tools. The matrix has seven categories and 100 points:
 
 | Category | Criteria today | Points |
 |---|---|---|
-| Features | Quality of the tax report 20 · portfolio tracking 5 · reports for previous years 2 · individual tax advice 2 · WISO integration 2 | 31 |
+| Scope of services | Quality of the tax report 20 · portfolio tracking 5 · reports for previous years 2 · individual tax advice 2 · WISO integration 2 | 31 |
 | Security | Registered office 5 · year founded 5 · Trustpilot 5 | 15 |
 | Cost structure | Free version 2 · lifetime licence 2 · price for 100, 1,000, 10,000 and unlimited transactions 2.5 each | 14 |
 | Usability | User interface 5 · app and desktop 2 · German language 5 | 12 |

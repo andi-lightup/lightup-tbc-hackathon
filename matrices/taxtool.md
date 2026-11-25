@@ -2,7 +2,7 @@
 
 English transcription of the LIGHT UP infosheet (German original: [So testen wir](https://lightupkryptos.de/so-testen-wir/)). A tool can reach 100 points. Rating = points ÷ 10, so 100 points are a rating of 10.00.
 
-## Features · 31 points
+## Scope of services · 31 points
 
 | Criterion | Scoring | Max. |
 |---|---|---|

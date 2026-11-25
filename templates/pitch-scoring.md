@@ -2,7 +2,7 @@
 
 The jury scores every pitch out of 50 points. Together with up to 50 points for the submission, each team can reach 100 points. The team with the most points in each track wins.
 
-Each pitch has three minutes plus one minute for questions. Open with a real example from your test.
+Each pitch has five minutes in total, including questions. Open with a real example from your test.
 
 ## Criteria
 
@@ -11,7 +11,7 @@ Each pitch has three minutes plus one minute for questions. Open with a real exa
 | Result and demo | 15 | A working result, shown live on a real example from the test | Result shown, but only in parts or without a real example | Only an idea, nothing shown |
 | Use for LIGHT UP and its readers | 15 | LIGHT UP can adopt or test it right away; it clearly helps the intended reader | Useful, but needs substantial work first | Unclear who it helps or how LIGHT UP would use it |
 | Evidence and reproducibility | 10 | Rules defined before testing, sources and dates shown, someone else could repeat it | Partly documented | Claims without sources or rules |
-| Clarity and timing | 10 | A beginner can follow it; within three minutes; questions answered precisely | Mostly clear, slightly over time or vague answers | Hard to follow or well over time |
+| Clarity and timing | 10 | A beginner can follow it; within five minutes; questions answered precisely | Mostly clear, slightly over time or vague answers | Hard to follow or well over time |
 
 Use whole points. Half points means about half of the criterion's maximum, for example 7 or 8 of 15.
 

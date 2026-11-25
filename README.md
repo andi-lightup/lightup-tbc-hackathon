@@ -29,7 +29,7 @@ Each track has three fixed focuses, nine in total. Teams form on site on Saturda
 
 Each team is named after its track and focus, for example "Exchange B", and may add a name of its own for the pitch. There is one winning team per track; the evaluation judges the result, not the size of the focus.
 
-Each brief shows the matrix it starts from. The full matrices with every scoring rule are in [matrices/](matrices/). Andi and Peed cross-check each other's findings and use community feedback when reviewing weights, so a proposal from this hackathon goes to a community poll before it changes the matrix. Every exchange in the comparison is tested with €1,000 of real money, from deposit through a bitcoin purchase to withdrawal to a personal wallet. [Read the methodology and download the rating matrices (German).](https://lightupkryptos.de/so-testen-wir/)
+Each brief shows the matrix it starts from. The full matrices with every scoring rule are in [matrices/](matrices/). At LIGHT UP, the two of us cross-check each other's findings and use community feedback when reviewing weights, so a proposal from this hackathon goes to a community poll before it changes the matrix. Every exchange in the comparison is tested with €1,000 of real money, from deposit through a bitcoin purchase to withdrawal to a personal wallet. [Read the methodology and download the rating matrices (German).](https://lightupkryptos.de/so-testen-wir/)
 
 ### Weights question for every team
 

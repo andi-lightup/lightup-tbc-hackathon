@@ -27,7 +27,7 @@ Each track has three fixed focuses, nine in total. Teams form on site on Saturda
 | Wallets | Security | Usability, features and pilot | Scope, provider list and data agent |
 | Tax tools | Costs and calculator | Sample dataset test | Data agent |
 
-Each team is named after its track and focus, for example "Exchange B", and may add a name of its own for the pitch. There is one winning team per track; the evaluation judges the result, not the size of the focus.
+Each team is named after its track and focus, for example "Exchange B", and may add a name of its own for the pitch. All teams are ranked together across the three tracks; the evaluation judges the result, not the size of the focus.
 
 Each brief shows the matrix it starts from. The full matrices with every scoring rule are in [matrices/](matrices/). At LIGHT UP, the two of us cross-check each other's findings and use community feedback when reviewing weights, so a proposal from this hackathon goes to a community poll before it changes the matrix. Every exchange in the comparison is tested with €1,000 of real money, from deposit through a bitcoin purchase to withdrawal to a personal wallet. [Read the methodology and download the rating matrices (German).](https://lightupkryptos.de/so-testen-wir/)
 
@@ -58,7 +58,7 @@ Each team can reach 100 points:
 | Submission | 0–50 | An AI agent checks the uploaded results against the track's specifications and requirements |
 | Pitch | 0–50 | The jury scores each pitch with the [pitch scoring sheet](templates/pitch-scoring.md) |
 
-The team with the most points in each track wins, so there are three winning teams. The TUM Blockchain Club organises the prizes.
+All teams are ranked together, across all tracks. The three teams with the most points take first, second and third place, so two or even all three of them can come from the same track. The TUM Blockchain Club organises the prizes.
 
 ## Use of results
 

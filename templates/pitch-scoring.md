@@ -1,6 +1,6 @@
 # Pitch scoring sheet
 
-The jury scores every pitch out of 50 points. Together with up to 50 points for the submission, each team can reach 100 points. The team with the most points in each track wins.
+The jury scores every pitch out of 50 points. Together with up to 50 points for the submission, each team can reach 100 points. All teams are ranked together; the top three take first, second and third place, whatever their track.
 
 Each pitch has five minutes in total, including questions. Open with a real example from your test.
 
@@ -31,12 +31,20 @@ One table per juror. Add up the points per team; if there are several jurors, ta
 | Taxtool B | | | | | | |
 | Taxtool C | | | | | | |
 
-## Overall result
+## Overall ranking
 
-| Track | Team | Submission (50) | Pitch (50) | Total (100) |
+List every team with its total and sort by the total. Places 1 to 3 win, regardless of track.
+
+| Place | Team | Submission (50) | Pitch (50) | Total (100) |
 |---|---|---|---|---|
-| Exchanges | | | | |
-| Wallets | | | | |
-| Tax tools | | | | |
+| 1 | | | | |
+| 2 | | | | |
+| 3 | | | | |
+| 4 | | | | |
+| 5 | | | | |
+| 6 | | | | |
+| 7 | | | | |
+| 8 | | | | |
+| 9 | | | | |
 
 In a tie, the higher pitch score decides; if that is also equal, the jury decides.

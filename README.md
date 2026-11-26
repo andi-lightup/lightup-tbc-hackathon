@@ -48,7 +48,7 @@ Agents never get access to your accounts. Do not give them logins, passwords, ve
 
 ## Submission and evaluation
 
-**Submit both your project and your pitch deck by 17:00 CET on Saturday, 28 November.** Upload both through the TUM Blockchain Club submission tool. You’ll receive the link on the day. Use the [submission template](templates/comparison.md) for your write-up.
+**Submit your GitHub repository and your pitch presentation by 17:00 CET on Saturday, 28 November.** Upload both through the TUM Blockchain Club submission tool. You’ll receive the link on the day. Use the [submission template](templates/comparison.md) for your write-up.
 
 | Saturday (CET) | Activity |
 |---|---|
@@ -57,6 +57,20 @@ Agents never get access to your accounts. Do not give them logins, passwords, ve
 | 17:00–18:00 | Pitches and award ceremony |
 
 Each team has five minutes for its pitch, including questions. Open with an example from your test. The [judging criteria](templates/pitch-scoring.md) cover your result and demo, usefulness for LIGHT UP and its readers, evidence and reproducibility, and clarity and timing.
+
+## Winners and prizes
+
+All teams are ranked together across the three tracks. There is a first, second and third place overall, so two or even all three of them can come from the same track.
+
+| Place | Prize |
+|---|---|
+| 1st | A Ledger hardware wallet for each team member |
+| 2nd | A purple TUM Blockchain Club hoodie for each team member |
+| 3rd | A purple TUM Blockchain Club hoodie for each team member |
+
+The TUM Blockchain Club organises the prizes.
+
+**Working student opportunity:** If we at LIGHT UP really like a team's result, we would like to talk to its members about a working student position with us.
 
 ## Use of results
 

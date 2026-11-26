@@ -64,7 +64,7 @@ All teams are ranked together across the three tracks. There is a first, second 
 
 | Place | Prize |
 |---|---|
-| 1st | A Ledger hardware wallet for each team member |
+| 1st | A Ledger Nano S Plus for each team member |
 | 2nd | A purple TUM Blockchain Club hoodie for each team member |
 | 3rd | A purple TUM Blockchain Club hoodie for each team member |
 

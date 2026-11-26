@@ -2,12 +2,11 @@
 
 How would you choose a crypto exchange, a software wallet or a tax tool if you could see exactly how every rating was earned?
 
-On Saturday, 28 November 2026, about 20 students form teams of two or three. Three tracks each take on a whole LIGHT UP comparison: what to rate, how to rate it and how to test it. People test what only people can judge, such as how easy an app is to use. Agents collect and check the public facts. Every track ends with something LIGHT UP can use after the event. The teams of a track split the comparison between them, so together they cover all of it. Andi from LIGHT UP introduces the tracks with real examples and supports the teams.
+On Saturday, 28 November 2026, 22 participants form teams of two or three. Three tracks each take on a whole LIGHT UP comparison: what to rate, how to rate it and how to test it. People test what only people can judge, such as how easy an app is to use. Agents collect and check the public facts. Every track ends with something LIGHT UP can use after the event. Andi from LIGHT UP introduces the tracks with real examples and supports the teams.
 
 ## Before the event
 
-- The TUM Blockchain Club shares set-up documents and tutorials for the tech stacks you can build with.
-- Bring a laptop with the AI tools you like to work with. The club’s tutorials cover Gemini and Kiro Crew, but any tool is fine. Note in your submission which tools you used.
+- Bring your laptop. You can use any AI tools you like. TBC has shared setup information with participants.
 - Read the three track briefs and the [rating matrices](matrices/). For context, each brief links LIGHT UP’s latest comparison video (German). The matrices are more current than the videos.
 - If you want to open test accounts in the exchange track, bring your smartphone and an ID document. For the optional cost test you need €10 of your own money and a way to deposit it. Taking part without an account is fine.
 
@@ -19,7 +18,7 @@ On Saturday, 28 November 2026, about 20 students form teams of two or three. Thr
 | [Crypto Wallet Comparison](tracks/02-wallet.md) | What would a good software wallet comparison look like if we built it from scratch? | A provider list, criteria, scoring rules and weights for a new comparison, tried on three wallets |
 | [Crypto Taxtool Comparison](tracks/03-taxtool.md) | How can we improve the crypto tax tool comparison as a whole, including how it rates prices? | Revised criteria, a test of five tools with a shared [sample dataset](data/taxtool-sample/) and the basis for a cost calculator |
 
-Each track has three fixed focuses, nine in total. Teams form on site on Saturday, once the number of participants is known: about 20 people in teams of two or three, ideally one team per focus. With fewer teams a focus stays open; with more, a focus can be taken twice. Focus C is the same in every track: a data agent that keeps the public facts of the comparison current.
+Teams form on site. Choose a track and use one of its suggested focuses below, or explore another idea for that comparison. Multiple teams can choose the same focus.
 
 | Track | Focus A | Focus B | Focus C |
 |---|---|---|---|
@@ -27,7 +26,7 @@ Each track has three fixed focuses, nine in total. Teams form on site on Saturda
 | Wallets | Security | Usability, features and pilot | Scope, provider list and data agent |
 | Tax tools | Costs and calculator | Sample dataset test | Data agent |
 
-Each team is named after its track and focus, for example "Exchange B", and may add a name of its own for the pitch. All teams are ranked together across the three tracks; the evaluation judges the result, not the size of the focus.
+Choose a team name and include your track and chosen topic in your submission.
 
 Each brief shows the matrix it starts from. The full matrices with every scoring rule are in [matrices/](matrices/). At LIGHT UP, the two of us cross-check each other's findings and use community feedback when reviewing weights, so a proposal from this hackathon goes to a community poll before it changes the matrix. Every exchange in the comparison is tested with €1,000 of real money, from deposit through a bitcoin purchase to withdrawal to a personal wallet. [Read the methodology and download the rating matrices (German).](https://lightupkryptos.de/so-testen-wir/)
 
@@ -37,7 +36,7 @@ Besides its focus, every team answers one question in its submission: do the wei
 
 ## The brief for every team
 
-Start from the matrix in your brief. Define each scoring rule before you look at any product, then try it on two or three products. Show the current and proposed approach side by side. Ask a team from another track to reproduce one result using only your instructions. Record how long the check took and what would trigger the next one. A spreadsheet, sketch, short script, prototype or worked example is welcome. The directions in each brief are suggestions; choose your own if you can demonstrate it during the hackathon.
+Start from the matrix in your brief. Define each scoring rule before you look at any product, then try it on two or three products. Show the current and proposed approach side by side. Ask a team from another track to reproduce one result using only your instructions. Record how long the check took and what would trigger the next one. A spreadsheet, sketch, short script, prototype or worked example is welcome.
 
 A proposal can add or remove a criterion or a category, change its scoring or points, or change how the result appears to readers. If you change points, show how the rest of the matrix is adjusted so that the total stays at 100. [Submission template](templates/comparison.md)
 
@@ -49,16 +48,15 @@ Agents never get access to your accounts. Do not give them logins, passwords, ve
 
 ## Submission and evaluation
 
-Upload your results in the TUM Blockchain Club's submission tool; you get the link on the day. Use the [submission template](templates/comparison.md) for your write-up.
+**Submit both your project and your pitch deck by 17:00 CET on Saturday, 28 November.** Upload both through the TUM Blockchain Club submission tool. You’ll receive the link on the day. Use the [submission template](templates/comparison.md) for your write-up.
 
-Each team can reach 100 points:
+| Saturday (CET) | Activity |
+|---|---|
+| 11:00–12:30 | Vibecoding challenge with Andi |
+| 14:30–17:00 | Final coding sprint and pitch deck preparation |
+| 17:00–18:00 | Pitches and award ceremony |
 
-| Part | Points | Who scores it |
-|---|---|---|
-| Submission | 0–50 | An AI agent checks the uploaded results against the track's specifications and requirements |
-| Pitch | 0–50 | The jury scores each pitch with the [pitch scoring sheet](templates/pitch-scoring.md) |
-
-All teams are ranked together, across all tracks. The three teams with the most points take first, second and third place, so two or even all three of them can come from the same track. The TUM Blockchain Club organises the prizes.
+Each team has five minutes for its pitch, including questions. Open with an example from your test. The [judging criteria](templates/pitch-scoring.md) cover your result and demo, usefulness for LIGHT UP and its readers, evidence and reproducibility, and clarity and timing.
 
 ## Use of results
 
@@ -74,6 +72,6 @@ By submitting, you agree that LIGHT UP may use, adapt and publish your submissio
 ## Organizer checklist
 
 - **LIGHT UP:** Prepare the track introductions with one real example each (Andi presents on site), provide dated matrix extracts and be available to the teams during team work. Explain the affiliate links in the exchange track at the start.
-- **TUM Blockchain Club:** Share set-up documents and tech-stack tutorials, share tutorials for AI tools such as Gemini and Kiro Crew, and run the submission tool with its AI check.
-- **Together:** The event language is English. The TUM Blockchain Club organises the prize and keeps it independent of providers in the comparisons. Tell participants at the start which materials will be public and how LIGHT UP uses and credits results.
+- **TUM Blockchain Club:** Share the submission link and collect each team’s project and pitch deck.
+- **Together:** The event language is English. Tell participants at the start which materials will be public and how LIGHT UP uses and credits results.
 - **After the event:** LIGHT UP reruns promising tests, takes proposed weighting changes to its community and records which changes are adopted and why.

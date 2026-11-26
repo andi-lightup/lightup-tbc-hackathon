@@ -14,7 +14,7 @@ Use it as inspiration only. You may borrow from it or design a completely new ma
 
 ## Your task
 
-Each team takes one focus; teams form on site. Together the teams produce a complete first version of the comparison. Every team proposes points for its own criteria and answers the [weights question](../README.md#weights-question-for-every-team).
+Choose one of the suggested focuses below or explore your own idea for this track. Every team proposes points for its own criteria and answers the [weights question](../README.md#weights-question-for-every-team).
 
 | Focus | Topic | What you do |
 |---|---|---|
@@ -34,7 +34,7 @@ A ready concept for a new software wallet comparison: scope, provider list, matr
 
 ## What to submit
 
-Complete the [comparison submission](../templates/comparison.md):
+Use the [comparison submission](../templates/comparison.md) to document your work. Include the items below that apply to your chosen topic.
 
 1. Scope and inclusion rules, with the resulting provider list and sources (focus C).
 2. The criteria for your focus with scoring rules and points, and your answer to the weights question.

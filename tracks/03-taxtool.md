@@ -49,7 +49,7 @@ Record your results in the [hands-on test log](../templates/hands-on-test.md). D
 
 ## Your task
 
-Each team takes one focus; teams form on site. Every team also answers the [weights question](../README.md#weights-question-for-every-team) for its categories.
+Choose one of the suggested focuses below or explore your own idea for this track. Every team also answers the [weights question](../README.md#weights-question-for-every-team) for its categories.
 
 | Focus | Topic | What you do |
 |---|---|---|
@@ -67,7 +67,7 @@ Revised criteria for costs and data import, a ready test for the quality of the 
 
 ## What to submit
 
-Complete the [comparison submission](../templates/comparison.md):
+Use the [comparison submission](../templates/comparison.md) to document your work. Include the items below that apply to your chosen topic.
 
 1. The current and proposed criteria side by side, with points.
 2. Results for the tools you tested, with sources, dates and your hands-on test logs.
